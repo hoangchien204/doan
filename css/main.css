@@ -301,8 +301,13 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     position: absolute;
     width: 1440px;
+    top: 3845px;/* Group 1859 */
+    left: 0px;
+    position: absolute;
     height: 389px;
-    top: 100%;
+
+    
+    
     background:rgba(57,62,70,1);
     
 }
@@ -416,10 +421,8 @@ h3{
 
     position: absolute;
     width: 1440px;
-    height: 100px;
     left: 0px;
     top: 780px;
-
     background: #F4F4F4;
 
 }
