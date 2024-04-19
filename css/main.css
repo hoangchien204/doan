@@ -218,21 +218,20 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     top: 560px;
     z-index: 100;
 }
-.from-item{
-    /* unsplash:WWesmHEgXDs */
 
+.from-item {
     position: absolute;
     width: 290px;
     height: 80px;
     left: 300px;
     top: 560px;
-
-    background: rgba(0, 0, 0, 0.5);
+    display: block;  /* Thay đổi display thành block */
+    background: rgba(0, 0, 0, 0.5);  /* Nền đen trong suốt */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(2.5px);
     border-radius: 5px;
-
+    
 }
+
 #anh-child{
     position: relative;
     width: 60px;
@@ -267,7 +266,7 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     padding: 5px 2px 5px 8px;
     left: 285px;
     background: #5463FF;
-    align-items: center;
+    /* align-items: center; */
 
 
 }
@@ -288,13 +287,13 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     to {
         opacity: 0;
     }
-}
+} */
 /* Thêm hiệu ứng animation */
-.hidden {
-    animation: fadeOut 1s forwards;
+ .hidden {
+    animation: fadeOut 0.5s forwards;
 }
 .visible {
-    animation: fadeIn 1s forwards;
+    animation: fadeIn 0.5s forwards;
 }
 /* footer */
 .footer{
@@ -317,12 +316,7 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 .footer-item a{
     color: #FFFFFF;
 }
-.from-item{
-    top: 0px;
-	left: 0px;
-	width: 35.26px;
-	height: 33.93px
-}
+
 #LOGOFOOTER{
     position: absolute;
     top: 86px;
@@ -416,4 +410,16 @@ color: #FFFFFF;
 h3{
     line-height: 14px;
     margin-bottom: 24px;
+}
+.body{
+    /* Frame 22 */
+
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 780px;
+
+    background: #F4F4F4;
+
 }
