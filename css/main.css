@@ -2,6 +2,11 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    border: none;
+    max-width: 1440px;
+}
+body{
+    margin: 0;
 }
 /* Navabar */
 .nav{
@@ -11,7 +16,6 @@
     left: 0%;
     top: 0%;
     background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
-    border-radius: 5px;
     z-index: -1;
 }
 .nav-background{
@@ -21,12 +25,12 @@
     left: 0px;
     top: 0px;
     background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     z-index: -1;
 }
 .nav-text{
     position: absolute;
-    width: 508px;
+    width: 40%;
     height: 352px;
     left: 5%;
     top: 30%;
@@ -35,11 +39,8 @@
     /* Get the Latest Dress Models From Us */
 
     /* position: absolute; */
-    width: 426px;
-    height: 150px;
-    left: 120px;
-    top: 254px;
-
+    width: 90%;
+    height: 50%;
     font-family: 'Mada';
     font-style: normal;
     font-weight: 700;
@@ -53,17 +54,15 @@
 
 }
 .nav-text p{
-    top: 428px;
-	left: 120px;
-	width: 508px;
-	height: 90px;
+
+	width: 70%;
+	height: 40%;
 	overflow: hidden;
 	font-family: Poppins;
 	font-size: 18px;
 	text-align: left;
 	line-height: 30px;
 	margin-top: -4px;
-	height: 113.8px;
 	color:#DDDDDD;
 
 }
@@ -75,12 +74,8 @@ align-items: center;
 padding: 10px 34px;
 gap: 10px;
 
-width: 180px;
-height: 48px;
-left: 120px;
-top: 558px;
-
-/* Secondary Color */
+width: 20%;
+height: 7%;
 background: #FFFFFF;
 box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 
@@ -104,7 +99,8 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     top: 20%;
 }
 #anh1{
-    width: 173px;
+    width: 100%;
+    max-width: 173px;
 	height: 268px;
 }
 #anh2{
@@ -112,7 +108,7 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
    /* Group 2005 */
 
     position: absolute;
-    width: 146px;
+    width: 27%;
     height: 219px;
     top: 60%;
 
@@ -122,10 +118,10 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 }
 #anh3{
     position: absolute;
-    width: 400px;
+    width: 70%;
     height: 522px;
     top: 19%;
-    left: 250px;
+    left: 39%;
     border: 10px solid #FFFFFF;
     background: url(.jpg), #9C9C9C;
     border-radius: 50px 50px 50px 0; 
@@ -133,18 +129,17 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 }
 #anh3-child{
     position: absolute;
-    width: 80px;
+    width: 20%;
     height: 80px;
-    left: 300px;
-    top: 560px;
+    left: 0%    ;
     z-index: 100;
 }
 
 .from-item {
     position: absolute;
-    width: 290px;
+    width: 50%;
     height: 80px;
-    left: 300px;
+    left: 52%;
     top: 560px;
     display: block;  /* Thay đổi display thành block */
     background: rgba(0, 0, 0, 0.5);  /* Nền đen trong suốt */
@@ -155,10 +150,10 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 
 #anh-child{
     position: relative;
-    width: 60px;
+    width: 20%;
     height: 60px;
     top: 10px;
-    left: 85px;
+    left: 25%;
     margin-left: 25px;
 }
 #fa-angle-right{
@@ -167,10 +162,10 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     /* Vector */
 
     position: absolute;
-    width: 18px;
+    width: 3.5%;
     height: 18px;
     top: 75%;
-    left: 577px;
+    left: 99%;
     bottom: -37.42%;
     padding: 5px 2px 5px 8px;
     background: #5463FF;
@@ -181,11 +176,11 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 #fa-angle-left{
     z-index: 999;
     position: absolute;
-    width: 18px;
+    width: 3.5%;
     height: 18px;
     top: 75%;
     padding: 5px 2px 5px 8px;
-    left: 285px;
+    left: 48%;
     background: #5463FF;
     /* align-items: center; */
 
@@ -221,16 +216,21 @@ h3{
     line-height: 14px;
     margin-bottom: 24px;
 }
-.body{
+.body-img{
     position: absolute;
     width: 100%;
     left: 0px;
     top: 780px;
     background: #F4F4F4;
-
+    display: flex;
+    justify-content: center;
 }
+.body-img img{
+    margin: 15px 40px 15px 0;
+}
+
 .footer-main{
-    border-radius: 10px;
+
     position: absolute;
     width: 100%;
     left: 0px;
@@ -238,4 +238,97 @@ h3{
     bottom: 0px;
     height: 389px;
     background:rgba(57,62,70,1);
+}
+.category{
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    left: 0%;
+    top: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.category-img{
+    width: 60%;
+    height: 100%;
+    display: flex;
+
+}
+.category-text{
+    /* Group 1855 */
+
+    width: 508px;
+    height: 222px;
+    left: 120px;
+}
+.category-text h1{
+    /* Categories Style */
+
+    width: 100%;
+    height: 62px;
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+
+    /* Dark color */
+    color: #0D1222;
+
+
+}
+.category a{
+    width: 100%;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #5463FF;
+
+
+}
+.category-text p{
+    width: 100%;
+    height: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    /* Medium Dark */
+    color: #646464;
+}
+
+.category #fa-angle-right{
+    left: 85%;
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.category-img img{
+}
+#anh-cat1{
+    position: absolute;
+    max-width: 360px;
+    width: 25%;
+    height: 100%;
+    left: 61%;
+    background: url(.jpg), #A7A7A7;
+}
+#anh-cat2{
+    position: absolute;
+    left: 90%;
+    top :10%;
+    max-width: 254px;
+    width: 15%;
 }
