@@ -6,7 +6,7 @@
 /* Navabar */
 .nav{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 780px;
     left: 0%;
     top: 0%;
@@ -14,88 +14,9 @@
     border-radius: 5px;
     z-index: -1;
 }
-
-.nav-main{
-    width: 100%;
-   display: flex;
-    justify-content: space-between;
-    background: #FFFFFF;
-}
-.nav-item2{
-    display: flex;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-   margin: 10px 15px 0 0;
-}
-.nav-item2 li{
-    margin-right: 20px;
-
-}
-.nav-item2 li a:hover{
-    color: #5463FF;
-}
-.nav-item1{
-    display: flex;
-    top: 0px;
-	left: 0px;
-	width: 160px;
-	height: 33.93px;
-    margin: 7px 0 0 40px;
-}
-
-#LOGO{
-    /* margin: 10px 0 10px 100px; */
-    top: 9px;
-	left: 42px;
-	width: 122.4px;
-	height: 20.4px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	color:#0D1222;
-    margin-top: 5px;
-}
-.nav-item1 img{
-    top: 0px;
-	left: 0px;
-	width: 35.26px;
-	height: 33.93px
-}
-#input{
-	width: 250px;
-	height: 28px;
-	margin-bottom: 10px;
-	border-radius: 10px;
-	border: 1.5px solid #969696;
-	background:rgba(255,255,255,1);
-    display: flex;
-    justify-content: space-between;
-    
-}
-#find{
-    margin-left: 5px;
-    border: none;
-	font-family: Mada;
-    width: 80%;
-	
-}
-#search2{
-    top: 0px;
-	left: 0px;
-	width: 20px;
-	height: 20px;
-	background:rgba(255,255,255,0);
-
-    margin-top: 5px;
-    margin-left: 10px;
-}
 .nav-background{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 780px;
     left: 0px;
     top: 0px;
@@ -287,7 +208,7 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     to {
         opacity: 0;
     }
-} */
+} 
 /* Thêm hiệu ứng animation */
  .hidden {
     animation: fadeOut 0.5s forwards;
@@ -296,133 +217,25 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
     animation: fadeIn 0.5s forwards;
 }
 /* footer */
-.footer{
-    /* Group 1859 */
-    border-radius: 10px;
-    position: absolute;
-    width: 1440px;
-    top: 3845px;/* Group 1859 */
-    left: 0px;
-    position: absolute;
-    height: 389px;
-
-    
-    
-    background:rgba(57,62,70,1);
-    
-}
-.footer-item{
-    display: flex;
-    color: #FFFFFF;
-    justify-content: space-around;
-    margin-top: 80px;
-    margin-right: 120px;
-}
-.footer-item a{
-    color: #FFFFFF;
-}
-
-#LOGOFOOTER{
-    position: absolute;
-    top: 86px;
-    left: 124px;
-}
-#footer1 {
-    
-	width: 424px;
-	height: 218px; 
-    line-height: 20px;
-}
-#footer-item1{
-    margin-top: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #F4F4F4;
-
-
-}
-#footer1 a{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 180px;
-    height: 48px;
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
-    background-color: #FFFFFF;
-    color: #000000;
-}
-#footer2{
-    width: 78px;
-    height: 21px;
-    left: 671px;
-    top: 163px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #F4F4F4;
-}
-#footer3{
-width: 47px;
-height: 27px;
-left: 829px;
-top: 80px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-size: 14px;
-line-height: 21px;
-
-color: #FFFFFF;
-}
-#footer4{
-    width: 47px;
-    height: 27px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 21px;
-color: #FFFFFF;
-}
-#footer5{
-    width: 47px;
-    height: 27px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF; 
-}
-#footer5-item{
-    display: flex;
-}
-#footer5-item li{
-    position: relative;
-    left: -40px;
-    margin-right: 16px;
-    border: 1px solid #FFFFFF;
-    padding: 5px;
-    margin-top: 16px;
-}
 h3{
     line-height: 14px;
     margin-bottom: 24px;
 }
 .body{
-    /* Frame 22 */
-
     position: absolute;
-    width: 1440px;
+    width: 100%;
     left: 0px;
     top: 780px;
     background: #F4F4F4;
 
+}
+.footer-main{
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 3845px;
+    bottom: 0px;
+    height: 389px;
+    background:rgba(57,62,70,1);
 }
