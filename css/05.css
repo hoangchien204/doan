@@ -102,11 +102,11 @@
 .checkbox
 {
   position: absolute;
-  top:60px;
+  top: 50%;
 
 }
 .footer-main{
-  border-radius: 10px;
+  /* border-radius: 10px; */
   position: absolute;
   width: 100%;
   left: 0px;
