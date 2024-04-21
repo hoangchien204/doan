@@ -99,4 +99,19 @@
           
           
 }
+.checkbox
+{
+  position: absolute;
+  top:60px;
 
+}
+.footer-main{
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 3845px;
+  bottom: 0px;
+  height: 389px;
+  background:rgba(57,62,70,1);
+}
