@@ -8,13 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <!-- <link rel="stylesheet" href="../css/footer.css"> -->
 </head>
 <body>
-    
-    <iframe src="/html/header.html" class="nav-main"></iframe>
+    <iframe src="../html/header.html" class="nav-main"></iframe>
     <nav class="nav" id="nav">
         <section class="nav-background" id="nav-background">
             <div class="nav-text">
@@ -25,19 +24,20 @@
             <div class="nav-img" >
                 <div class="nav-img-item1">
                     <p>More list</p>
-                    <img src="/img//Group 2006.png" alt="" id="anh1">
+                    <img src="../img//Group 2006.png" alt="" id="anh1">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
                             
-                    <img src="/img/unsplash_npyWFYpHQ94.png" alt="" id="anh2">
+                    <img src="../img/unsplash_npyWFYpHQ94.png" alt="" id="anh2">
                     <div class="From">
-                        <img src="/img/unsplash_IrQmtib-ER4.png" alt="" id="anh3">
+                        <img src="../img/unsplash_IrQmtib-ER4.png" alt="" id="anh3">
                         <i class="fa-solid fa-angle-right" id="fa-angle-right"  onclick="nextImage()"></i>
                         <i class="fa-solid fa-angle-left" id="fa-angle-left"  onclick="prevImage()"></i>
-                        <img id="anh3-child" src="/img/unsplash_IrQmtib-ER4.png" alt="">
+                        
                         <div class="from-item">
-                            <img id="anh-child" src="/img/unsplash_npyWFYpHQ94.png" alt="">
-                            <img  id="anh-child" src="/img/unsplash_GREEBEtyR9Y.png" alt="">
+                            <img id="anh3-child" src="../img/unsplash_IrQmtib-ER4.png" alt="">
+                            <img id="anh-child" src="../img/unsplash_npyWFYpHQ94.png" alt="">
+                            <img  id="anh-child" src="../img/unsplash_GREEBEtyR9Y.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -45,16 +45,35 @@
     </nav>
 
     <section class="body">
-        <div >
-
+        <div class="body-img">
+        <img src="../img/Group 1920.png" alt=""><img src="../img/Group 1924.png" alt=""><img src="../img/Group 1923.png" alt=""><img src="../img/Group 1922.png" alt=""><img src="../img/Group 1925.png" alt=" ">
         </div>
-        <h1>heelo</h1>
+        <div class="category">
+            <ul class="category-text">
+                    <li><a href="#">CHOOSE YOUR CATEGORY</a></li>
+                    <li><h1>Categories Style</h1></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper.</p></li>
+            </ul>
+            <div class="category-img">
+                <i class="fa-solid fa-angle-right" id="fa-angle-right"></i>
+                <i class="fa-solid fa-angle-left" id="fa-angle-left"></i>
+                <div>
+                    <p id="T-S">T-Shirt</p>
+                    <img src="../img/unsplash_xPJYL0l5Ii8.png" id="anh-cat1">
+                </div>
+                <div>
+                    <img src="..//img/unsplash_eTCogYz7kQE.png" id="anh-cat2">
+                    
+                </div>
+            </div>
+        </div>
     </section>
+    
+
     <div id="footerr">
-<iframe src="/html/footer.html" class="footer-main"></iframe>
-</div>
-<script src="/js/home.js"></script>
-<!-- <script src="../js/nav.js"></script> -->
+        <iframe src="../html/footer.html" class="footer-main"></iframe>
+    </div>
+<script src="../js/home.js"></script>
 
 </body>
 </html>
