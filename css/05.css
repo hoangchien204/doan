@@ -2,8 +2,12 @@
 {
           position: relative;
           width: 100%;
-          height: 778px;
+          height: 900px;
 
+}
+
+*{
+  box-sizing: border-box;
 }
 .home
 {
@@ -12,19 +16,20 @@
                     display: flex;
                     justify-content: space-between;
                     width: 200px; /* Độ rộng của menu */
-                    margin-top: 36px;
                     margin-left: 120px;
                     font-size: 18px;
-                    top: 0;
+                    top: 105px;
+                    color: #FFFFFF;
                 
 }
 .myacc
 {
           display: flex;
           position: absolute;
-          top: 80px;
+          top: 166px;
           left: 120px;
-          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-family: 'Mada';
+          color: #FFFFFF;
           
 }
 .login
@@ -56,8 +61,8 @@
           width: 180px;
           height: 48px;
           margin-top: 200px;
-          background-color: transparent; /* Màu nền trong suốt */
-          /*border: none;*/
+          background-color: white; /* Màu nền trong suốt */
+          border: none;
           margin-right: 40px;
 }
 .icon
@@ -80,7 +85,7 @@
           width: 180px;
           height: 48px;
           margin-top: 200px;
-          background-color: transparent; /* Màu nền trong suốt */
+          background-color: white; /* Màu nền trong suốt */
           /*border: none;*/
           margin-left: 205px;
 }
@@ -101,6 +106,10 @@
           margin-bottom: 10px;
           
           
+}
+input
+{
+  padding: 15px;
 }
 .wrapcheck
 {
@@ -138,8 +147,7 @@ line-height: 21px;
 /* identical to box height */
 
 /* light */
-/*color: #F4F4F4;*/
-color: black;
+color: #F4F4F4;
 
 }
 
@@ -161,8 +169,8 @@ line-height: 21px;
 /* identical to box height */
 
 /* light */
-/*color: #F4F4F4;*/
-color: black;
+color: #F4F4F4;
+
 
 }
 
@@ -178,7 +186,7 @@ top: 550px;
 /* Secondary Color */
 /*background: #FFFFFF;
 box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);*/
-background-color: bisque;
+background-color:white;
 
 }
 .logint
@@ -215,6 +223,7 @@ flex-grow: 0;
 {
   position: absolute;
   width: 100%;
+  height: 1000px;
   top: 0px;
 }
 
@@ -223,10 +232,29 @@ flex-grow: 0;
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 3845px;
+  top: 930px;
   bottom: 0px;
   height: 389px;
   background:rgba(57,62,70,1);
+}
+
+.background-container
+{
+position: absolute;
+width: 100%;
+height: 1000px;
+left: 0px;
+top: 0px;
+background: linear-gradient(90deg, rgba(107, 120, 255, 0.99) 0%, #8609E9 48.55%, rgba(134, 9, 233, 0) 97.4%);
+
+}
+.color
+{
+  color:white;
+}
+.color:hover
+{
+  color: aqua;
 }
 
 
