@@ -62,8 +62,8 @@
           height: 48px;
           margin-top: 200px;
           background-color: white; /* Màu nền trong suốt */
-          border: none;
           margin-right: 40px;
+          border: none;
 }
 .icon
 {
@@ -75,7 +75,7 @@
 .text
 {
           margin-left: 60px;
-          font-family: Poppins;
+          font-family: 'Poppins';
           font-size: 18px;
 }
 .button2
@@ -86,7 +86,7 @@
           height: 48px;
           margin-top: 200px;
           background-color: white; /* Màu nền trong suốt */
-          /*border: none;*/
+          border: none;
           margin-left: 205px;
 }
 .email
@@ -210,7 +210,6 @@ background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 
 
 /* Inside auto layout */
