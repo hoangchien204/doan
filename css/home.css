@@ -78,7 +78,7 @@ body{
     left:50%;
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins';
+   font-family:sans-serif;
     font-style: normal;
     color: #FFFFFF;
 }
@@ -247,7 +247,7 @@ h3{
     width: 100%;
     height: 30px;
 
-    font-family: 'Poppins';
+   font-family:sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -261,7 +261,7 @@ h3{
     width: 100%;
     height: 90px;
 
-    font-family: 'Poppins';
+   font-family:sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -418,7 +418,7 @@ h3{
 .list-text{
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins';
+   font-family:sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -459,11 +459,12 @@ h3{
 }
 .Oblongers_T-Shirt-list{
     position: absolute;
-    width: 90%;
+    width: 98%;
     height: 428px;
     top: 88px;
     left: -164px;
     display: flex;
+    justify-content: space-around;
 
 }
 .Oblongers_T-Shirt-img{
@@ -477,18 +478,116 @@ h3{
 .Oblongers_T-Shirt-text ul{
     display: flex;
     color: #FFFFFF;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 24px;
 }
 
 #color {
-    font-family: 'Poppins';
+   font-family:sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
-    margin-bottom: 100px;
+    margin-bottom: 16px;
 }
 #color1{
     position: relative;
-    top: 50px;
+    top: 2px;
     display: flex;
+    right: 0px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+#color2{
+    top: -20px;
+    position: relative;
+    left: 30px;
+
+}
+#color3{
+    top: -20px;
+    position: relative;
+    left: 40px;
+}
+
+.list-color{
+    display: flex;
+}
+#color4{
+    width: 152px;
+    height: 24px;
+    margin-right: 8px;
+}
+.color4{
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #DDDDDD;
+
+}
+.T-Shirt-Size li{
+
+    width: 37px;
+    height: 27px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+
+}
+.T-Shirt-Size div {
+    display: flex;
+}
+.Size{
+    background: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    margin: 0 12px;
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: sans-serif;
+}
+.Size:hover{
+    font-weight: 700;
+    color: #5463FF;
+    cursor: pointer;
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #FFFFFF;
+}
+#text-money{
+width: 79px;
+height: 60px;
+font-family:sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.T-Shirt-text3{
+    margin-top: 24px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #DDDDDD;
 }
