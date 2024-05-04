@@ -4,14 +4,9 @@
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
-<<<<<<< HEAD
     position: absolute;
     z-index: 1000;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-=======
-    z-index: 1000;
-    position: absolute;
->>>>>>> 9ff0abb56b0c7ba9ba86774a09fc3a273193e010
 }
 .nav-item2{
     display: flex;
@@ -90,21 +85,6 @@ a,img{
 	width: 35.26px;
 	height: 33.93px
 }
-<<<<<<< HEAD
-
-=======
-#input{
-	width: 250px;
-	height: 28px;
-	margin-bottom: 10px;
-	border-radius: 10px;
-	border: 1.5px solid #969696;
-	background:rgba(255,255,255,1);
-    display: flex;
-    justify-content: space-between;
-    outline: none;
-}
->>>>>>> 9ff0abb56b0c7ba9ba86774a09fc3a273193e010
 #find{
 	font-family: Mada;
     width: 70%;
@@ -121,7 +101,6 @@ a,img{
 
 }
 #search2{
-<<<<<<< HEAD
     background: none;
     position: absolute;
     width: 18px;
@@ -131,9 +110,6 @@ a,img{
 }
 .intput{
     
-=======
-   background: none;
->>>>>>> 9ff0abb56b0c7ba9ba86774a09fc3a273193e010
 }
 #iframe{
     top: 0px;   
