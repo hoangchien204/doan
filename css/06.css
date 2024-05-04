@@ -1,0 +1,251 @@
+.container
+{
+          position: relative;
+          width: 100%;
+          height: 1444px;
+
+}
+
+
+.home
+{
+
+                    position: absolute;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 200px; /* Độ rộng của menu */
+                    margin-left: 120px;
+                    font-size: 18px;
+                    top: 135px;
+                    color: #FFFFFF;
+                    font-family:'Poppins';
+                
+}
+.myacc
+{
+          display: flex;
+          position: absolute;
+          margin-top: 180px;
+          left: 120px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #FFFFFF;
+          font-size: 40px;
+          
+}
+.signup
+{
+          width: 300px;
+          display: flex;
+          position: absolute;
+          top: 95px;
+          left: 0px;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 36px;
+          
+
+}
+.login
+{
+          display: flex;
+          justify-content: space-between;
+          position: absolute;
+          top: 165px;
+          left: 0px;
+          width: 250px;
+          font-family:'Poppins';
+          font-size: 15px; 
+}
+.button1
+{
+          display: inline-block;
+          position: absolute;
+          width: 180px;
+          height: 48px;
+          margin-top: 216px;
+          background-color: white; /* Màu nền trong suốt */
+          margin-right: 40px;
+          border: none;
+}
+.icon
+{
+  position: absolute;
+  left: 40px; /* Khoảng cách của icon từ bên trái */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text
+{
+          margin-left: 60px;
+          font-family: 'Poppins';
+          font-size: 18px;
+}
+.button2
+{
+          display: inline-block;
+          position: absolute;
+          width: 180px;
+          height: 48px;
+          margin-top: 216px;
+          background-color: white; /* Màu nền trong suốt */
+          border: none;
+          margin-left: 205px;
+}
+.email
+{
+          position: absolute;
+          font-family:'Poppins';
+          font-size: 18px;
+          top: 413px;
+}
+#emailinput
+{
+          margin-top: 10px;
+          width: 588px;
+          height: 45px;
+          margin-bottom: 24px;   
+}
+input
+{
+  padding: 15px;
+}
+
+.fal
+{
+          position: absolute;
+          font-family:'Poppins';
+          font-size: 18px;
+          top: 312px;
+          
+}
+.fall
+{
+          position: absolute;
+          font-family:'Poppins';
+          font-size: 18px;
+          top: 312px;
+          left: 306px;
+          
+}
+#falinput
+{
+  margin-top: 10px;
+  width: 282px;
+  height: 45px;
+  top: 403px;
+}
+
+
+.wrapcheck
+{
+display: flex;
+justify-content: space-between;
+}
+.checkbox
+{
+position: absolute;
+width: 24px;
+height: 24px;
+left:1px;
+top: 711px;
+background: #FFFFFF;
+
+}
+.remember
+{
+
+position: absolute;
+width: 105px;
+height: 21px;
+left: 40px;
+top: 711px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+/* light */
+color: #F4F4F4;
+
+}
+
+.signb
+{
+  
+position: absolute;
+width: 180px;
+height: 48px;
+left: 410px;
+top: 760px;
+background: #FFFFFF;
+box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+background-color:white;
+
+}
+.signt
+{
+  /* Shop Now */
+position: absolute;
+width: 70px;
+height: 27px;
+
+font-family:'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+left: 55px;
+top: 10px;
+/* identical to box height */
+
+/* gradient */
+background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.background
+{
+  position: absolute;
+  width: 100%;
+  height: 979px;
+  top: 80px;
+}
+
+.footer-main{
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 1059px;
+  bottom: 0px;
+  height: 389px;
+  background:rgba(57,62,70,1);
+}
+
+.background-container
+{
+position: absolute;
+width: 100%;
+height: 979px;
+left: 0px;
+top: 80px;
+background: linear-gradient(90deg, rgba(107, 120, 255, 0.99) 0%, #8609E9 48.55%, rgba(134, 9, 233, 0) 97.4%);
+
+}
+.color
+{
+  color:white;
+}
+.color:hover
+{
+  color: aqua;
+}

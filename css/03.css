@@ -1,0 +1,190 @@
+.container
+{
+          position: relative;
+          width: 100%;
+          height: 1755px;
+}
+.body
+{
+          width: 100%;
+          height:1327px;
+          overflow: hidden;
+}
+.background
+{
+position: absolute;
+width: 100%;
+height: 348px;
+left: 0px;
+top: 80px;
+background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+border-radius: 5px;
+transform: skewY(-4deg);
+transform-origin: left bottom;
+}
+.home
+{
+display: flex;
+justify-content:space-between;
+position: absolute;
+width: 180px;
+height: 22px;
+left: 120px;
+top: 120px;
+}
+.active-page
+{
+          color: white;
+          font-weight: bold;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color
+{
+          color: white;
+}
+.picture
+{
+          width: 483px;
+          height: 268px;
+          position: absolute;
+          left: 750px;
+}
+.text1
+{
+width: 200px;
+height: 52px;
+top: 180px;
+left: 81px;
+font-size: 40px;
+position: absolute;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2
+{
+ /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper. */
+position: absolute;
+width: 510px;
+height: 78.38px;
+left: 81.85px;
+top: 257px;
+color: white;
+font-size: 18px;
+line-height: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content_3
+{
+          position: absolute;
+          width: 1202px;
+          height: 349px;
+          left:120px;
+          top: 498px;
+
+}
+.pro
+{
+position: absolute;
+width: 119px;
+height: 52px;
+left: -19px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #0D1222;
+
+}
+.text_pro
+{
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper. Klara is an AI powered automated Solution Builder of Growth Strategy, Branding and Digital marketing planning for your business. */
+
+position: absolute;
+width: 520px;
+height: 210px;
+top: 70px;
+left: -19px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+color: #646464;
+
+}
+
+.img-pro
+{
+          position: absolute;
+          width: 590px;
+          height: 349px;
+          left: 645px;
+         
+}
+/*4*/
+.content_4
+{
+          position: absolute;
+          width: 1235px;
+          height: 349px;
+          top: 430px;
+
+}
+.our_mission
+{
+position: absolute;
+width: 260px;
+height: 52px;
+right:250px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #0D1222;
+
+}
+.text_mis
+{
+/*  */
+
+position: absolute;
+width: 520px;
+height: 210px;
+top: 70px;
+right: 0px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+color: #646464;
+
+}
+.img-miss
+{
+          position: absolute;
+          width: 590px;
+          height: 349px;
+
+
+         
+}
+.footer-main{
+          /* border-radius: 10px; */
+          position: absolute;
+          width: 100%;
+          left: 0px;
+          top: 1370px;
+          bottom: 0px;
+          height: 389px;
+          background:rgba(57,62,70,1);
+        }
+
+
+
+
+
+
