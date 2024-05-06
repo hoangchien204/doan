@@ -2,7 +2,7 @@
 {
           position: relative;
           width: 100%;
-          height: 1444px;
+          height: 1448px;
 
 }
 
@@ -26,7 +26,7 @@
           display: flex;
           position: absolute;
           margin-top: 180px;
-          left: 120px;
+          left: 100px;
           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           color: #FFFFFF;
           font-size: 40px;
@@ -35,10 +35,9 @@
 .signup
 {
           width: 300px;
-          display: flex;
           position: absolute;
           top: 95px;
-          left: 0px;
+          color: #FFFFFF;
           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           font-size: 36px;
           
@@ -190,13 +189,12 @@ background-color:white;
 position: absolute;
 width: 70px;
 height: 27px;
-
 font-family:'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 27px;
-left: 55px;
+left:45px;
 top: 10px;
 /* identical to box height */
 
