@@ -1,4 +1,3 @@
-
 .chear {
   position: absolute;
   top: 80px;
@@ -7,183 +6,110 @@
   background: linear-gradient(180deg, #7d89ff 0%, #ab40ff 66.67%);
   box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-iframe{
+iframe {
   position: absolute;
   width: 100%;
   z-index: 1000;
   border: none;
 }
 
-.footer-main{
-
+.footer-main {
   position: absolute;
   width: 100%;
   left: 0px;
   top: 2000px;
   bottom: 0px;
   height: 389px;
-  background:rgba(57,62,70,1);
+  background: rgba(57, 62, 70, 1);
 }
-.chear1 {
+.inchear {
   width: 80%;
   height: 160px;
-  margin: auto;
 }
-.home {
-  width: 134px;
-  height: 22px;
-  top: 120px;
-  left: 120px;
-  padding: 9px, 0px, 9px, 0px;
+.homeshop p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+.homeshop {
+  display: flex;
   gap: 24px;
-  color: white;
 }
-.home a {
-  color: white;
-}
-a:hover {
-  font-weight: 800;
-  color: #0ec5d7;
-}
-.chear3 {
-  display: flex;
-  margin-left: 550px;
-}
-.chear3 a {
-  color: white;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.circle {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: auto;
-}
-.icon {
-  color: #5463ff;
-  border: 1px solid white;
-  background-color: white;
-  height: 18px;
-  width: 18px;
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Name {
-  font-size: 50px;
-}
-.p2 {
-  height: 100%;
-  width: 139px;
-  margin-top: 40px;
-  margin-left: 90px;
-  font-family: Arial, Helvetica, sans-serif;
+.Shop {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  white-space: nowrap;
+  color: white;
+  margin-top: 51px;
 }
-
-.shop {
+.circle_shop {
   display: flex;
-  flex-direction: column;
-  font-size: 60px;
-  margin-top: 50px;
+  justify-content: space-between;
 }
-.Home__items {
+.circle {
   display: flex;
-  gap: 5px;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
-.center {
-  height: 100%;
-  margin-left: 90px;
-  margin-top: 0px;
-}
-
-.leftrow1 {
-  width: 150px;
+.circle1 {
   display: flex;
+  justify-content: center;
   align-items: center;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #0d1222;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  flex-direction: column;
+  gap: 20px;
 }
-.filter {
-  top: 476px;
-  left: 120px;
+.circle_one {
+  border-radius: 50%;
   width: 80px;
+  height: 80px;
 }
-.leftrow1_icon {
-  width: 24px;
-  height: 24px;
-  margin-left: -10px;
-}
-.leftrow2 {
-  /* T - Shirt */
-
-position: absolute;
-width: 139px;
-height: 52px;
-left: 120px;
-top: 400px;
-
-font-family: 'Mada';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-
-
-
-}
-.Categories {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.Categories_item {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
+.circle1 p {
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-.leftrow2_2 {
-  display: flex;
-  justify-content: space-between;
-}
-.leftrow2_2_2 {
-  border: 1px solid #dddddd;
-  padding: 8px 15px 8px 15px;
-  margin-top: 20px;
-  color: #0d1222;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.leftrow2_2_2:hover {
-  color: #ffffff;
-  background-color: #5463ff;
   font-weight: 700;
 }
-.line {
+.box_square {
+  width: 18px;
+  height: 80px;
+  display: flex;
 }
- .left {
-  position: absolute;
-  top: 40px;
-  margin-left: 98px;
-  gap: 50px;
-} 
-.right {
-  position: absolute;
-  width: 100%;
-  height: 366px;
-  top: 476px;
-  left: 0px;
-
+.square {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 18px;
+  height: 18px;
+  margin: auto;
 }
-
+.vecto {
+  width: 5.34px;
+  height: 10.68px;
+}
+.homeshop p:hover {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.circle1:hover {
+  cursor: pointer;
+}
+.circle1:hover .circle_one {
+  border: 3px solid white;
+  cursor: pointer;
+}
+.T_Shirt{
+color: black;
+width: 139px;
+height: 52px;
+top: 139px;
+left: 120px;
+position: absolute;
+}
