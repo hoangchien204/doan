@@ -4,18 +4,13 @@
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
-    z-index: 1000;
     position: absolute;
-    
-    
+    z-index: 1000;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 .nav-item2{
     display: flex;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    margin: 10px 15px 0px 0px;
+    margin: 28px 15px 0px 0px;
 }
 .nav-item2 li{
     margin-right: 40px;
@@ -67,7 +62,7 @@ a,img{
 	left: 0px;
 	width: 160px;
 	height: 33.93px;
-    margin: 7px 0 0 121px;
+    margin: 28px 0 0 121px;
 }
 
 #LOGO{
@@ -91,10 +86,9 @@ a,img{
 	height: 33.93px
 }
 #find{
-    margin-left: 5px;
 	font-family: Mada;
     width: 70%;
-    height: 28px;
+    height: 40px;
     border-radius: 10px;
     border: 1.5px solid #969696;
     background: rgba(255, 255, 255, 1);
@@ -102,17 +96,21 @@ a,img{
     margin-left: 16px;
     margin-right: 119px;
 	padding-left: 10px;
+    margin-top: -9px;
+
+
 }
 #search2{
-   
     background: none;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 7%;
-    top: 15px;
+    right: 6%;
+    top: 30px;
 }
-
+.intput{
+    
+}
 #iframe{
     top: 0px;   
 }

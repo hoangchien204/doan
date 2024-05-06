@@ -45,6 +45,7 @@ function prevImage() {
         mainImage.classList.add('visible');
     }, 500);
 }
+<<<<<<< HEAD
 
 //chuyển ảnh phần body
 // $(document).ready(function() {
@@ -88,6 +89,8 @@ function prevImage() {
 //     });
 // });
 // Khởi tạo biến để lưu chỉ số hình ảnh hiện tại
+=======
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 let currentIndex = 0;
 
 // Hàm để hiển thị hình ảnh dựa trên chỉ số

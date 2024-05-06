@@ -11,6 +11,12 @@ iframe{
 body{
     margin: 0;
 }
+<<<<<<< HEAD
+=======
+.flex{
+    display: flex;
+}
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 /* Navabar */
 .nav{
     position: absolute;
@@ -78,7 +84,11 @@ body{
     left:50%;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     font-family: 'Poppins';
+=======
+   font-family:sans-serif;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     font-style: normal;
     color: #FFFFFF;
 }
@@ -206,6 +216,7 @@ h3{
     background:rgba(57,62,70,1);
 }
 .category{
+<<<<<<< HEAD
     position: absolute;
     width: 100%;
     height: 230px;
@@ -214,6 +225,17 @@ h3{
     display: flex;
     justify-content: space-between;
 }
+=======
+
+    position: absolute;
+    width: 1376px;
+    height: 230px;
+    left: 120px;
+    top: 960px;
+    
+    
+} 
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 .category-img{
     width: 60%;
     height: 100%;
@@ -247,7 +269,11 @@ h3{
     width: 100%;
     height: 30px;
 
+<<<<<<< HEAD
     font-family: 'Poppins';
+=======
+   font-family:sans-serif;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -261,7 +287,11 @@ h3{
     width: 100%;
     height: 90px;
 
+<<<<<<< HEAD
     font-family: 'Poppins';
+=======
+   font-family:sans-serif;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -287,6 +317,7 @@ h3{
     background: #5463FF;
 }
 
+<<<<<<< HEAD
 #anh-cat1{
     position: absolute;
     max-width: 360px;
@@ -296,6 +327,23 @@ h3{
     background: url(.jpg), #A7A7A7;
 }
 
+=======
+.category-img img{
+
+}
+#anh-cat1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 343px;
+    height: 220px;
+    left: 833px;
+    top: 8px;
+}
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #anh-cat2{
     position: absolute;
     left: 89%;
@@ -303,6 +351,24 @@ h3{
     width: 15%;
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+#anh1-text{
+position: relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+left: 50px;
+top: -24px;
+color: #FFFFFF;
+}
+#anh1-img{
+    position: relative;
+    top:-100px;
+}
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #T-S{
     position: absolute;
     top: 11%;
@@ -318,6 +384,13 @@ h3{
     text-align: center;
     z-index: 1;
 }   
+<<<<<<< HEAD
+=======
+#product-img{
+    width: 265px;
+    height: 248px;
+}
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #JK{
     position: absolute;
     top: 19%;
@@ -416,7 +489,11 @@ h3{
 .list-text{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     font-family: 'Poppins';
+=======
+   font-family:sans-serif;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -433,7 +510,11 @@ h3{
     display: flex;
 
 }
+<<<<<<< HEAD
 .list-text h3, p{
+=======
+.list-text #H3{
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -457,32 +538,80 @@ h3{
 }
 .Oblongers_T-Shirt-list{
     position: absolute;
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 98%;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     height: 428px;
     top: 88px;
     left: -164px;
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: space-around;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 
 }
 .Oblongers_T-Shirt-img{
     width: 851px;
     height: 428px;
 }
+<<<<<<< HEAD
 .Oblongers_T-Shirt-text{
     width: 510px;
     height: 392px;
+=======
+#Group2008{
+    margin-right: 200px;
+    margin-bottom: 46px;
+}
+#left{
+    padding: 11px 13px 11px 13px;
+    height: 17px;
+    background: white;
+    position: relative;
+    left: 50%;
+    bottom: 48%;
+}
+#right{
+    padding: 11px 13px 11px 13px;
+    height: 17px;
+    background: white;
+    position: relative;
+    left: 100%;
+    bottom: 48%;
+}
+
+.Oblongers_T-Shirt-text{
+    width: 510px;
+    height: 392px;
+    position: relative;
+    left: 10%;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 }
 .Oblongers_T-Shirt-text ul{
     display: flex;
     color: #FFFFFF;
+<<<<<<< HEAD
 }
 
 #color {
     font-family: 'Poppins';
+=======
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 24px;
+}
+
+#color {
+   font-family:sans-serif;
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
+<<<<<<< HEAD
     margin-bottom: 100px;
 }
 #color1{
@@ -490,3 +619,285 @@ h3{
     top: 50px;
     display: flex;
 }
+=======
+    margin-bottom: 16px;
+}
+#color1{
+    position: relative;
+    top: 2px;
+    display: flex;
+    right: 0px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+#color2{
+    top: -20px;
+    position: relative;
+    left: 30px;
+
+}
+#color3{
+    top: -20px;
+    position: relative;
+    left: 40px;
+}
+
+.list-color{
+    display: flex;
+}
+#color4{
+    width: 152px;
+    height: 24px;
+    margin-right: 8px;
+}
+.color4{
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #DDDDDD;
+
+}
+.T-Shirt-Size li{
+
+    width: 37px;
+    height: 27px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+
+}
+.T-Shirt-Size div {
+    display: flex;
+}
+
+.Size{
+    background: #fff;
+    color: black;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 12px;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Size:hover{
+    font-weight: 700;
+    color: #5463FF;
+    cursor: pointer;
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px; 
+    color: #FFFFFF;
+}
+#text-money{
+    width: 79px;
+    height: 60px;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.T-Shirt-text3{
+    margin-top: 24px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
+.Order{
+   
+    gap: 10px;
+    width: 180px;
+    height: 48px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Order a{   
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.Testimonials{
+position: absolute;
+width: 83%;
+height: 360px;
+left: 120px;
+top: 2976px;
+font-family: sans-serif;
+}
+.Testimonials h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Testimonials1{
+    width: 50%;
+    height: 268px;
+    margin-left: 24px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+.Testimonials1::before {
+    content: "";
+    position: relative;
+    top: 78px;
+    left: 86.8%;
+    border-top: 78px solid #F4F4F4;
+    border-left: 78px solid transparent;
+
+
+}
+#Testimonials1{
+    margin: 40px;
+}
+.avatar{
+    display: flex;
+    
+}
+#avatar{
+    width: 48px;
+    height: 48px;
+}
+.avatar-text #avatar-texth3,#avatar-textp{
+    margin: 0;
+    line-height: 24px;
+    margin-left: 16px;
+}
+#avatar-textp{
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #969696;
+}
+#Testimonials1-star{
+width: 152px;
+height: 24px;
+margin: 24px 0 24px 0;
+}
+#Testimonials1-text{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus. “ */
+
+
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #646464;
+}
+.Models{
+    position: absolute;
+    width: 1200px;
+    height: 349px;
+    left: 120px;
+    top: 3404px;
+    display: flex;
+
+}
+.Models-list-bg{
+    width: 600px;
+    height: 349px;
+}
+.Models-list{
+    width: 513px;
+    height: 258px;
+    margin: 46px 0;
+}
+.Models-list-img{
+    background: url(../img/unsplash_tvG4WvjgsEY.png);
+    width: 590px;
+    height: 349px;
+    background-size: cover;
+}
+#Models-listh1{
+
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* identical to box height */
+
+    /* Dark color */
+    color: #0D1222;
+
+
+}
+#Models-listp{
+margin-top: 16px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+/* Medium Dark */
+color: #646464;
+
+
+}
+#Models-lista{
+width: 95px;
+height: 27px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+#Models-list-bg-a{
+    margin-top: 52px;
+    width: 112px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 10px;
+    background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+>>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
