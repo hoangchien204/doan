@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'mada';
+}
 .chear {
   position: absolute;
   top: 80px;
@@ -105,11 +110,45 @@ iframe {
   border: 3px solid white;
   cursor: pointer;
 }
-.T_Shirt{
+/* .T_Shirt{
 color: black;
 width: 139px;
 height: 52px;
 top: 139px;
 left: 120px;
 position: absolute;
+} */
+.part2-main{
+position: absolute;
+width: 100%;
+top: 400px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+}
+.part2 {
+  width: 80%;
+  font-family: 'mada';
+
+}
+.part2-menu{
+  
+  width: 281px;
+  height: 621px;
+  display: flex;
+}
+.Categories{
+  padding-right: 100px;
+  border-bottom: 1px solid#ddd;
+}
+.Categories-text-list{
+  display: flex;
+  gap: 25px;
+}
+.Categories-text-list p{
+  border: 1px solid #ddd;
+  padding: 4px 10px;
+  margin: 0;
 }
