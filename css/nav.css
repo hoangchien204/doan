@@ -43,7 +43,6 @@
   background-color: #5463ff;
   bottom: -8px;
   left: 50%;
-  color: #5463ff;
   position: absolute;
   border-radius: 50%;
 }
@@ -109,4 +108,5 @@ img {
 }
 #iframe {
   top: 0px;
+
 }
