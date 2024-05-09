@@ -1,4 +1,9 @@
-
+body{
+    width: 100%;
+}
+.footer-main{
+    top: 0;
+}
 .footer-item{
     display: flex;
     color: #FFFFFF;
@@ -9,7 +14,18 @@
 .footer-item a{
     color: #FFFFFF;
 }
-
+#Login{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 #LOGOFOOTER{
     position: absolute;
     top: 86px;
