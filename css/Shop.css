@@ -198,10 +198,17 @@ position: absolute;
   padding: 4px 10px;
   margin: 0;
 }
+.Categories-text_img{
+  display: flex;
+width: 282px;
+gap: 185px;
+
+}
 .Price{
   display: flex;
   gap: 220px;
   height: 121px;
+  
 }
 .color{
 
