@@ -15,10 +15,10 @@
     <title>My_Account</title>
 </head>
 <body>
-    <!-- <iframe src="../html/header.html" frameborder="0"></iframe> -->
+    <iframe src="../html/header.html" id="iframe" frameborder="0"></iframe>
     <section class="main">
         <div class="nav-detail-text">
-            <p>Home</p><p>/</p><p>Shope</p><p>/</p><p><strong>Smart T-Shirt</strong></p>
+            <a href="./home.html">Home</a><p>/</p><p><a href="#" >Shope</a></p><p>/</p><p><strong>Smart T-Shirt</strong></p>
         </div>
         <div>
             
@@ -68,11 +68,11 @@
                         <div class="Detail-Quantity">
                             <div>
                             <p id="Quantity">Quantity</p>
-                                <div class="Quantity-box">
-                                    <p class="Quantity-text-">-</p>
-                                    <p class="Quantity-text1">1</p>
-                                    <p class="Quantity-text">+</p>
-                                </div>
+                            <div class="Quantity-box">
+                                <button id="Quantity2"><img class="Quantity-text-" src="../img/Group 2049.png" alt=""></button>
+                                <p class="Quantity-text1">1</p>
+                                <button id="Quantity1"><img class="Quantity-text" src="../img/Group 2050.png" alt=""></button>
+                            </div>
                             </div>  
                             <p id="money">$40 USD</p>
                         </div>
@@ -251,7 +251,7 @@
                     </div>
                     
                     <div class ="list-text">
-                        <div>
+                      <div>
                         <h3 id="H3">Smart T-Shirt</h3>
                         <p id="H3">Best quality</p>
                         </div>
@@ -291,5 +291,6 @@
     </section>
 
     <iframe src="../html/footer.html" class="footer-main" frameborder="0"></iframe>
+    <script src="../js/Detail_Product.js"></script>
 </body>
 </html>

@@ -12,13 +12,12 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Checkout</title>
-    <link rel="stylesheet" href="../js/Checkout.js">
     <link rel="stylesheet" href="../css/Checkout.css">
 </head>
 <body>
    
     <section class="Cart-main">
-        <iframe src="../html/header.html" frameborder="0"></iframe>
+        <iframe src="../html/header.html" id="iframe" frameborder="0"></iframe>
         <div class="Cart">
             <div class="Cart-menu">
                 <p>Home</p><p>/</p><p>Cart</p>
@@ -28,7 +27,7 @@
         </div>
 
         <div class="Cart-img">
-            <h1>Cart Product</h1>
+            <h1 id="Cart-Product">Cart Product</h1>
                 <div class="inforfation">
                     <div>
                         <div class="BG">
@@ -55,9 +54,9 @@
                                         <img src="../img/46.png" id="click-img" alt="">
                                     </div>
                                     <div class="Quantity-box">
-                                        <p class="Quantity-text-" onclick="decreaseQuantity(this)">-</p>
+                                        <button id="Quantity2"><img class="Quantity-text-" src="../img/Group 2049.png" alt=""></button>
                                         <p class="Quantity-text1">1</p>
-                                        <p class="Quantity-text" onclick="increaseQuantity(this)">+</p>
+                                        <button id="Quantity1"><img class="Quantity-text" src="../img/Group 2050.png" alt=""></button>
                                     </div>
                                     
                                 </div>
@@ -86,10 +85,10 @@
                                         <h3 id="click">product notes</h3>
                                         <img src="../img/46.png" id="click-img" alt="">
                                     </div>
-                                    <div class="Quantity-box">
-                                        <p class="Quantity-text-" onclick="">-</p>
-                                        <p class="Quantity-text1">1</p>
-                                        <p class="Quantity-text" onclick="increaseQuantity()">+</p>
+                                    <div id="Quantity" class="Quantity-box">
+                                                   <button id="Quantity2"><img class="Quantity-text-" src="../img/Group 2049.png" alt=""></button>
+                                        <p id="Quantity" class="Quantity-text1">1</p>
+                                        <button id="Quantity1"><img class="Quantity-text" src="../img/Group 2050.png" alt=""></button>
                                     </div>
                                 </div>
                             </div>
@@ -118,9 +117,9 @@
                                         <img src="../img/46.png" id="click-img" alt="">
                                     </div>
                                     <div class="Quantity-box">
-                                        <p class="Quantity-text-">-</p>
-                                        <p class="Quantity-text1">1</p>
-                                        <p class="Quantity-text">+</p>
+                                                 <button id="Quantity2"><img class="Quantity-text-" src="../img/Group 2049.png" alt=""></button>
+                                        <p id="Quantity" class="Quantity-text1">1</p>
+                                        <button id="Quantity1"><img class="Quantity-text" src="../img/Group 2050.png" alt=""></button>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +129,8 @@
                         <div class="check-item"id="Check-Coupon">
                             <h3>Coupon Code</h3>
                             <input type="text" name="" id="input"></br>
-                            <a href="" id="left">Check</a>
+                            <label for="check" id="left">Check</label>
+                            <p id="message"></p>
                         </div>
                         <div class="check-item" id="Subtotal">
                             <div>
@@ -149,5 +149,6 @@
         </div>
     </section>
     <iframe src="../html/footer.html" class="footer-main"></iframe>
+    <script src="../js/Checkout.js"></script>
 </body>
 </html>

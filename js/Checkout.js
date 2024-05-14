@@ -1,52 +1,60 @@
-// Hàm để tăng số lượng
-// Hàm tăng số lượng
-function increaseQuantity(element) {
-    // Lấy phần tử cha chứa (Quantity-box)
-    const quantityBox = element.parentElement;
-    // Lấy phần tử số lượng
-    const quantityElement = quantityBox.querySelector('.Quantity-text1');
-    // Tăng số lượng lên một
-    let quantity = parseInt(quantityElement.textContent);
-    quantity++;
-    quantityElement.textContent = quantity;
-}
+// tăng giảm số lưọng sản phẩm
+function handleClick(event) {
+    // Lấy phần tử được nhấp chuột (sự kiện đang nhấp chuột trên phần tử nào)
+    const clickedElement = event.target;//gán phần tử đang click vào clicker
 
-// Hàm giảm số lượng
-function decreaseQuantity(element) {
-    // Lấy phần tử cha chứa (Quantity-box)
-    const quantityBox = element.parentElement;
-    // Lấy phần tử số lượng
+    // Tìm phần tử cha của phần tử được nhấp chuột, đó là "Quantity-box"
+    const quantityBox = clickedElement.closest('.Quantity-box');
     const quantityElement = quantityBox.querySelector('.Quantity-text1');
-    // Giảm số lượng đi một
     let quantity = parseInt(quantityElement.textContent);
-    quantity--;
-    // Đảm bảo số lượng không âm
+    if (clickedElement.classList.contains('Quantity-text')) {
+        quantity++;
+    } else if (clickedElement.classList.contains('Quantity-text-')) {
+        quantity--;
+    }
     if (quantity < 0) {
         quantity = 0;
     }
     quantityElement.textContent = quantity;
 }
+//gắn mỗi hàm ở dưới 1 click thay vì sử dụng onclick
+document.querySelectorAll('.Quantity-text-, .Quantity-text').forEach(element => {
+    element.addEventListener('click', handleClick);
+});
+//check coupon
+function checkCoupon() {
+    
+    // Lấy phần tử input, label và message
+    const input = document.getElementById('input');
+    const label = document.getElementById('left');
+    const message = document.getElementById('message');
 
+    const validCouponCode = 'MAGIAMGIA01';
 
-// Hàm xử lý sự kiện nhấp chuột
-function handleClick(event) {
-    const clickedElement = event.target;
-    const quantityBox = clickedElement.parentElement;
-    const quantityElement = quantityBox.querySelector('.Quantity-text1');
-
-    if (clickedElement.classList.contains('Quantity-text')) {
-        // Nếu là dấu cộng, gọi hàm tăng số lượng
-        increaseQuantity(quantityElement);
-    } else if (clickedElement.classList.contains('Quantity-text-')) {
-        // Nếu là dấu trừ, gọi hàm giảm số lượng
-        decreaseQuantity(quantityElement);
-    }
+    // Thêm sự kiện click cho label
+    label.addEventListener('click', function() {
+        // Lấy giá trị của mã giảm giá nhập vào
+        const enteredCouponCode = input.value.trim();
+        if (enteredCouponCode === validCouponCode) {
+            // Hiển thị thông báo thành công
+            message.textContent = 'Sử dụng mã thành công';
+            message.style.color = 'green';
+        } else {
+            message.textContent = 'Mã code hết hạn hoặc không hợp lệ';
+            message.style.color = 'red';
+        }
+    });
 }
+checkCoupon();
 
-// Thêm trình xử lý sự kiện nhấp chuột cho các dấu cộng và dấu trừ
-document.querySelectorAll('.Quantity-box').forEach(box => {
-    // Thêm sự kiện nhấp chuột cho dấu cộng
-    box.querySelector('.Quantity-text').addEventListener('click', handleClick);
-    // Thêm sự kiện nhấp chuột cho dấu trừ
-    box.querySelector('.Quantity-text-').addEventListener('click', handleClick);
+
+// Lấy tất cả các phần tử có lớp là .trash
+const trashIcons = document.querySelectorAll('.BG img#trash');
+trashIcons.forEach(trashIcon => {
+    trashIcon.addEventListener('click', function() {
+        const item = trashIcon.closest('.BG');
+        if (item) {
+            item.remove();
+        }
+    });
 });

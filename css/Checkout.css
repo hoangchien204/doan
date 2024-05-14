@@ -5,8 +5,13 @@
     text-decoration: none;
 }
 
-iframe{
+#iframe{
     width: 100%;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
     z-index: 1;
 }
 .footer-main{
@@ -18,6 +23,11 @@ iframe{
     height: 389px;
     background:rgba(57,62,70,1);
 }
+section{
+    position: absolute;
+    top: 80px;
+}
+/*  */
 .Cart-main{
     position: relative;
     width: 100%;
@@ -25,6 +35,9 @@ iframe{
     background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
     border-radius: 5px;
     flex-wrap: wrap;
+}
+#Cart-Product{
+    margin-top: 80px;
 }
 .Cart{
     width: 80%;
@@ -151,23 +164,36 @@ iframe{
     border: 1px solid #ddd;
     justify-content: space-around;
     margin-top: 18px;
+    background: #FFFFFF;
 }
 .Quantity-text{
-    position: relative;
-    top: -6px;
-    left: -12px;
-    height: auto;
-    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF ;
 }
 .Quantity-text-{
-    position: relative;
-    top: -30px;
-    left: 9px;
-    font-size: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF ;
+}
+button{
+    background-color: #FFFFFF;
+    border: none;
 }
 .Quantity-text1{
     font-size: 23px;
     margin: auto;
+}
+#Quantity2{
+    border-right: none;
+}
+#Quantity1{
+    border-left: none;
+}
+#message{
+    position: absolute;
 }
 .check{
     width: 378px;
