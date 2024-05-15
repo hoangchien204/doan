@@ -1,18 +1,28 @@
-.footer-item {
-  display: flex;
-  color: #ffffff;
-  justify-content: space-around;
-  margin-top: 80px;
-  margin-right: 120px;
+
+.footer-main{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    bottom: 0px;
+    height: 0;
+    background: rgba(57, 62, 70, 1);
+}
+.footer-item{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-right: 120px;
 }
 .footer-item a {
   color: #ffffff;
 }
 
-#LOGOFOOTER {
-  position: absolute;
-  top: 86px;
-  left: 9%;
+#LOGOFOOTER{
+    position: absolute;
+    top: 86px;
+    left: 9%;
 }
 #footer1 {
   width: 424px;

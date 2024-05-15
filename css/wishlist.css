@@ -9,10 +9,13 @@ section {
   top: 80px;
 }
 
-iframe {
-  /* position: absolute; */
+#iframe {
+  top: 0;
+  height: 80px;
   width: 100%;
-  border: none;
+  position: fixed;
+  z-index: 9;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .footer-main {
@@ -24,7 +27,12 @@ iframe {
   height: 389px;
   background: rgba(57, 62, 70, 1);
 }
-
+/*  */
+.content{
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
 .content_wishlish {
   background: linear-gradient(180deg, #7d89ff 0%, #ab40ff 66.67%);
   display: flex;
