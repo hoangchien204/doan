@@ -42,52 +42,6 @@ function prevImage() {
         mainImage.classList.add('visible');
     }, 500);
 }
-<<<<<<< HEAD
-
-//chuyển ảnh phần body
-// $(document).ready(function() {
-//     // Lấy tất cả các phần tử .image-container
-//     const imageContainers = $('.image-container');
-//     let currentIndex = 0; // Chỉ số hiện tại của ảnh được hiển thị
-
-//     // Hàm để hiển thị ảnh theo chỉ số
-//     function showImage(index) {
-//         // Ẩn tất cả các ảnh
-//         imageContainers.hide();
-//         // Hiển thị ảnh theo chỉ số được chỉ định
-//         $(imageContainers[index]).show();
-//     }
-
-//     // Ban đầu hiển thị ảnh đầu tiên
-//     showImage(currentIndex);
-
-//     // Xử lý sự kiện khi nhấp vào nút mũi tên phải
-//     $('#fa-angle-right-bd').click(function() {
-//         // Tăng chỉ số hiện tại
-//         currentIndex++;
-//         // Nếu chỉ số hiện tại vượt quá số lượng ảnh, đặt về chỉ số đầu tiên
-//         if (currentIndex >= imageContainers.length) {
-//             currentIndex = 0;
-//         }
-//         // Hiển thị ảnh theo chỉ số mới
-//         showImage(currentIndex);
-//     });
-
-//     // Xử lý sự kiện khi nhấp vào nút mũi tên trái
-//     $('#fa-angle-left-bd').click(function() {
-//         // Giảm chỉ số hiện tại
-//         currentIndex--;
-//         // Nếu chỉ số hiện tại nhỏ hơn 0, đặt về chỉ số cuối cùng
-//         if (currentIndex < 0) {
-//             currentIndex = imageContainers.length - 1;
-//         }
-//         // Hiển thị ảnh theo chỉ số mới
-//         showImage(currentIndex);
-//     });
-// });
-// Khởi tạo biến để lưu chỉ số hình ảnh hiện tại
-=======
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 let currentIndex = 0;
 
 // Hàm để hiển thị hình ảnh dựa trên chỉ số
