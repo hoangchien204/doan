@@ -14,10 +14,6 @@
 body{
     margin: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 .footer-main{
 
     position: absolute;
@@ -28,11 +24,9 @@ body{
     height: 389px;
     background:rgba(57,62,70,1);
 }
->>>>>>> 6dadc8b37e6c5c3b2c481ea04886fec020922204
 .flex{
     display: flex;
 }
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 /* Navabar */
 .nav{
     position: absolute;
@@ -123,15 +117,7 @@ background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
     left:50%;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Poppins';
-=======
-   font-family:sans-serif;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
-=======
    
->>>>>>> 6dadc8b37e6c5c3b2c481ea04886fec020922204
     font-style: normal;
     color: #FFFFFF;
 }
@@ -250,16 +236,6 @@ h3{
 
 
 .category{
-<<<<<<< HEAD
-    position: absolute;
-    width: 100%;
-    height: 230px;
-    left: 0%;
-    top: 960px;
-    display: flex;
-    justify-content: space-between;
-}
-=======
 
     position: absolute;
     width: 1376px;
@@ -269,7 +245,6 @@ h3{
     
     
 } 
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 .category-img{
     width: 60%;
     height: 100%;
@@ -303,15 +278,7 @@ h3{
     width: 100%;
     height: 30px;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Poppins';
-=======
-   font-family:sans-serif;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
-=======
    
->>>>>>> 6dadc8b37e6c5c3b2c481ea04886fec020922204
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -325,15 +292,7 @@ h3{
     width: 100%;
     height: 90px;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Poppins';
-=======
-   font-family:sans-serif;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
-=======
    
->>>>>>> 6dadc8b37e6c5c3b2c481ea04886fec020922204
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -359,17 +318,6 @@ h3{
     background: #5463FF;
 }
 
-<<<<<<< HEAD
-#anh-cat1{
-    position: absolute;
-    max-width: 360px;
-    width: 25%;
-    height: 100%;
-    left: 61%;
-    background: url(.jpg), #A7A7A7;
-}
-
-=======
 .category-img img{
 
 }
@@ -385,7 +333,6 @@ h3{
     left: 833px;
     top: 8px;
 }
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #anh-cat2{
     position: absolute;
     left: 89%;
@@ -393,8 +340,6 @@ h3{
     width: 15%;
     overflow: hidden;
 }
-<<<<<<< HEAD
-=======
 #anh1-text{
 position: relative;
 font-family: 'Poppins';
@@ -410,7 +355,6 @@ color: #FFFFFF;
     position: relative;
     top:-100px;
 }
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #T-S{
     position: absolute;
     top: 11%;
@@ -426,13 +370,10 @@ color: #FFFFFF;
     text-align: center;
     z-index: 1;
 }   
-<<<<<<< HEAD
-=======
 #product-img{
     width: 265px;
     height: 248px;
 }
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 #JK{
     position: absolute;
     top: 19%;
@@ -544,15 +485,7 @@ color: #5463FF;
 .list-text{
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Poppins';
-=======
-   font-family:sans-serif;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
-=======
    
->>>>>>> 6dadc8b37e6c5c3b2c481ea04886fec020922204
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -569,11 +502,7 @@ color: #5463FF;
     display: flex;
 
 }
-<<<<<<< HEAD
-.list-text h3, p{
-=======
 .list-text #H3{
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -597,30 +526,18 @@ color: #5463FF;
 }
 .Oblongers_T-Shirt-list{
     position: absolute;
-<<<<<<< HEAD
-    width: 90%;
-=======
     width: 98%;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
     height: 428px;
     top: 88px;
     left: -164px;
     display: flex;
-<<<<<<< HEAD
-=======
     justify-content: space-around;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 
 }
 .Oblongers_T-Shirt-img{
     width: 851px;
     height: 428px;
 }
-<<<<<<< HEAD
-.Oblongers_T-Shirt-text{
-    width: 510px;
-    height: 392px;
-=======
 #Group2008{
     margin-right: 200px;
     margin-bottom: 46px;
@@ -647,38 +564,21 @@ color: #5463FF;
     height: 392px;
     position: relative;
     left: 10%;
->>>>>>> 553029bbbeeb7f5908e89a084f391a264c07f9b3
 }
 .Oblongers_T-Shirt-text ul{
     display: flex;
     color: #FFFFFF;
-<<<<<<< HEAD
-}
-
-#color {
-    font-family: 'Poppins';
-=======
     justify-content: space-between;
     padding: 0;
     margin-top: 24px;
 }
 
 #color {
-<<<<<<< HEAD
-   font-family:sans-serif;
+   
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
-<<<<<<< HEAD
-    margin-bottom: 100px;
-}
-#color1{
-    position: relative;
-    top: 50px;
-    display: flex;
-}
-=======
     margin-bottom: 16px;
 }
 #color1{
