@@ -46,7 +46,11 @@ left: 120px;
 font-size: 40px;
 position: absolute;
 color: white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family:'Mada';
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+
 }
 .active-page
 {
@@ -233,16 +237,9 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 ::placeholder
 {
-  font-family: 'Poppins';
-  font-size: 18px;
-  font-weight: 700;
-  color:#969696;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+padding: 24px;
 }
-*
-{
-          box-sizing: border-box;
-}
-
-
-
-
