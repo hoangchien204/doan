@@ -108,7 +108,56 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
           top: 720px;
           right: 395px;
           background-color: white;
+          display: flex;
+          flex-direction: column;
           
+}
+.wrapcheck
+{
+          width: 250px;
+          height: 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+}
+
+.check {
+ -webkit-appearance: none;
+ appearance: none;
+width: 16px;
+height: 16px;
+background-color: #ccc; /* Màu nền xám */
+border-radius: 50%;
+border: none;
+position: relative;
+cursor: pointer;
+margin-right: 10px;
+ }
+
+.check:checked::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 10px;
+          height: 10px;
+          background-color: #5463ff;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+}
+       
+      
+.checktext
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: #0D1222;
+margin-top: -2px;
+margin-left: -2px;
 }
 .text3
 {
@@ -129,12 +178,13 @@ input
 }
 .input_a
 {
+          box-sizing: border-box;
+          position: absolute;
           width: 588px;
           height: 126px;
-          border: none;
-          margin-bottom: 23px;
+          /* White color */
           background: #FFFFFF;
-          box-sizing: border-box;
+          /* Medium */
           border: 1px solid #969696;
 }
 .input_b
@@ -181,3 +231,18 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
           height: 389px;
           background:rgba(57,62,70,1);
 }
+::placeholder
+{
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 700;
+  color:#969696;
+}
+*
+{
+          box-sizing: border-box;
+}
+
+
+
+
