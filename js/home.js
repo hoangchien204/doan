@@ -1,7 +1,4 @@
 
-
-// Chuyểnh ảnh phần background
-// Mảng chứa các đường dẫn của các hình ảnh
 const imagePaths = [
     '../img/unsplash_IrQmtib-ER4.png',
     "../img/anhaotrang.png",
