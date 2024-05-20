@@ -21,6 +21,7 @@
     <iframe src="../html/header.html" id="iframe"></iframe>
     <nav class="nav" id="nav">
         <section class="nav-background" id="nav-background">
+            <div class="nav-text-main">
             <div class="nav-text">
                 <h1>Get the Latest Dress Models From Us</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper.</p>
@@ -36,16 +37,18 @@
                     <img src="../img/unsplash_npyWFYpHQ94.png" alt="" id="anh2">
                     <div class="From">
                         <img src="../img/unsplash_IrQmtib-ER4.png" alt="" id="anh3">
-                        <img src="../img/Group 1930.png" id="fa-angle-right-bg"  onclick="nextImage()"></i>
-                        <img src="../img/Group 1929.png" id="fa-angle-left-bg"  onclick="prevImage()"></i>
-                        
                         <div class="from-item">
                             <img id="anh3-child" src="../img/unsplash_IrQmtib-ER4.png" alt="">
                             <img id="anh-child" src="../img/unsplash_npyWFYpHQ94.png" alt="">
                             <img  id="anh-child" src="../img/anhaotrang.png" alt="">
+                            <div>
+                                <img src="../img/Group 1930.png" id="fa-angle-right-bg"  onclick="nextImage()"></i>
+                                <img src="../img/Group 1929.png" id="fa-angle-left-bg"  onclick="prevImage()"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </nav>
 
@@ -54,25 +57,27 @@
         <img src="../img/Group 1920.png" alt=""><img src="../img/Group 1922.png" alt=""><img src="../img/Group 1923.png" alt=""><img src="../img/Group 1924.png" alt="">    <img src="../img/Group 1925.png" alt=" ">
         </div>
         <div class="category">
-            <ul class="category-text">
-                    <li><a href="#">CHOOSE YOUR CATEGORY</a></li>
-                    <li><h1>Categories Style</h1></li>
-                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper.</p></li>
-            </ul>
-            <div class="category-img">
-                <img src="../img/Group 1930.png"id="fa-angle-right-bd"></img>
-                <img src="../img/Group 1929.png"id="fa-angle-left-bd"></img>
-                <div class="image-container1">
-                    <p id="T-S">T-Shirt</p>
-                    <img src="../img/unsplash_xPJYL0l5Ii8.png" id="anh-cat1">
-                </div>
-                <div class="image-container2">
-                    <p id="JK">Jacket</p>
-                    <img src="..//img/unsplash_eTCogYz7kQE.png" id="anh-cat2">
+            <div class="category-center">
+                <ul class="category-text">
+                        <li><a href="#">CHOOSE YOUR CATEGORY</a></li>
+                        <li><h1>Categories Style</h1></li>
+                        <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget gravida leo, nec iaculis diam. Nam bibendum mi sed sem finibus ullamcorper.</p></li>
+                </ul>
+                <div class="category-img">            
+                    <div class="image-container">
+                        <div class="next-prev">
+                            <img src="../img/Group 1930.png" class="prev" id="fa-angle-right-bd"></img>
+                            <img src="../img/Group 1929.png" class="next" id="fa-angle-left-bd"></img>
+                        </div>
+                         <img src="../img/Frame 74.png" class="slider" id="anh-cat1">
+                        <img src="../img/Group 1856.png" class="slider" id="anh-cat2">
+                        
+                    </div>
+                    
                 </div>
             </div>
         </div>
-
+        <div class="Seller-center">
         <div class="Seller">
             <p id="CHOOSE">CHOOSE FROM THE BEST PRODUCTS</p>
             <h1>Our Best Seller Product</h1>
@@ -269,17 +274,18 @@
                 </div>
             </div>
         </div>
-        
+    </div>
         <div class="Oblongers_T-Shirt-bg">
             <div class="Oblongers_T-Shirt-list">
                 <div class="Oblongers_T-Shirt-img">
-                    <img src="../img/Group 2008.png" id="Group2008" alt="">
-                    <img src="../img/Group 2016.png" id="Group2016" alt="">
+                    <div class="img-container">
+                        <img src="../img/Group 2008.png" class="slider1 inactive" id="Group2008" alt="">
+                        <img src="../img/Group 2016.png" class="slider1 active" id="Group2016" alt="">
+                    </div>
                     <img src="../img/Vector.png" id="left" alt="">
-                <img src="../img/Vector (1).png" id="right" alt="">
+                    <img src="../img/Vector (1).png" id="right" alt="">
                 </div>
-                
-                <div class="Oblongers_T-Shirt-text">
+                    <div class="Oblongers_T-Shirt-text">
                     <h1 class="title">The Oblongers T-Shirt</h1>
                     <ul class="T-Shirt-text1">
                         <li id="color">Color 
@@ -315,7 +321,7 @@
         
         <div class="Testimonials">
             <h1>Testimonials</h1>
-            <div class="flex">
+            <div class="flex Testimonials1-main">
             <div class="Testimonials1">
                 <div id="Testimonials1">
                 <div class="avatar">
@@ -364,7 +370,9 @@
     <div id="footerr">
         <iframe src="../html/footer.html" class="footer-main"></iframe>
     </div>
-<script src="../js/home.js"></script>
+<script src="../js/home.js">
+    
+</script>
 
 </body>
 </html>

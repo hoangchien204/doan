@@ -43,6 +43,8 @@ section{
     width: 80%;
     margin-left: 113px;
     color: #fff;
+    position: relative;
+    top: 77px;
     
 }
 .Cart-img{
@@ -74,8 +76,13 @@ section{
 }
 .inforfation{
     margin-top: 40px;
+    gap: 40px;    
+    width: 98%;
+    margin-top: 40px;
     display: flex;
     gap: 40px;
+    display: flex;
+    justify-content: center;
 }
 .BG{
     width: 782px;

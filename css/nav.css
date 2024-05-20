@@ -88,29 +88,28 @@ a,img{
 }
 #find{
 	font-family: Mada;
-    width: 70%;
-    height: 40px;
+    width: 250px;
+    height: 48px;
     border-radius: 10px;
     border: 1.5px solid #969696;
     background: rgba(255, 255, 255, 1);
     display: flex;
-    margin-left: 16px;
-    margin-right: 119px;
-	padding-left: 10px;
+    padding-left: 16px;
     margin-top: -9px;
-
-
+    box-sizing: border-box;
 }
 #search2{
     background: none;
-    position: absolute;
+    position: relative;
     width: 18px;
     height: 18px;
-    right: 6%;
-    top: 30px;
+    top: -34px;
+    left: 216px;
+
 }
-.intput{
-    
+#input{
+    margin-right: 105px;
+    margin-left: 24px;
 }
 #iframe{
     top: 0px;   

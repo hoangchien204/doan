@@ -50,11 +50,16 @@ checkCoupon();
 
 // Lấy tất cả các phần tử có lớp là .trash
 const trashIcons = document.querySelectorAll('.BG img#trash');
+
 trashIcons.forEach(trashIcon => {
     trashIcon.addEventListener('click', function() {
         const item = trashIcon.closest('.BG');
         if (item) {
-            item.remove();
+            const userConfirmed = confirm("Bạn có chắc chắn muốn xóa mục này?");
+            if (userConfirmed) {
+                item.remove();
+            }
         }
     });
 });
+
