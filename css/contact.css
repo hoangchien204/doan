@@ -39,8 +39,7 @@ iframe {
   padding: 40px 0px 0px 0px;
   margin-left: 120px;
 }
-.part_one_row_one a:hover{
-
+.part_one_row_one a:hover {
   font-weight: 700;
   font-size: 14px;
   height: 21px;
@@ -54,7 +53,7 @@ iframe {
 .link_home:hover {
   cursor: pointer;
 }
-.link_home_2{
+.link_home_2 {
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
@@ -222,5 +221,7 @@ iframe {
   cursor: pointer;
   transform: scale(1.1);
   opacity: 0.8;
-
+}
+.error {
+  color: red;
 }
