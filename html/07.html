@@ -36,30 +36,42 @@
           <img src="/img/Group 2014.png" alt="" class="img">
           <div class="wrap">
                     <li class="text3">Name</li>
-                    <input type="text" class="input" placeholder="Alexanderdrostact12" style="padding: 24px;">
+                    <input type="text" class="input" id="nameInput" name="name" placeholder="Name" style="padding: 24px;">
+                    <span id="nameError" class="error-message1"></span>
                     <li class="text3">Street</li>
-                    <input type="text" class="input" placeholder="jl.karadenan no 100" style="padding: 24px;">
+                    <input type="text" class="input" id="streetInput" name="street" placeholder="Street" style="padding: 24px;">
+                    <span id="streetError" class="error-message2"></span>
                     <li class="text3">Address</li>
-                    <input type="text" class="input_a" placeholder="">
-                    <button type="button" class="update">
+                    <span id="addressError" class="error-message3"></span>
+                    <textarea type="text" class="input_a" id="addressInput" name="address" placeholder="Address"></textarea>
+                    <button type="button" class="update buttonde" onclick="validateForm()">
                               <p class="update-t">Update</p>
                     </button>    
           </div>
           <div class="wrap2">
                     <li class="text3">No.phone</li>
-                    <input type="text" class="input_b" placeholder="Alexanderdrostact12">
+                    <input type="text"  id="phoneInput" name="phone" required class="input_b" placeholder="1234 1234 1234 1234" style="padding: 24px;">
+                    <span id="phoneError" class="error-message4"></span>
           </div>
           <div class="wrap3">
-                    <p class="text3">Gender</p>
-                <div class="wrapcheck">
-                    <input type="checkbox" name="" id="" class="check">
-                    <p class="checktext">Male</p>
-                    <input type="checkbox" name="" id="" class="check">
-                    <p class="checktext">Female</p>
-                    <input type="checkbox" name="" id="" class="check">
-                    <p class="checktext">Other</p>
-                </div>
-
+                    <div class="text3">Gender</div>
+                    <div class="wrap_check">
+                        <div class="box1">
+                        <input type="checkbox" id="maleCheckbox" name="gender" value="male" class="check">
+                        <p class="text4">Male</p>
+                        </div>
+                        <div class="box1">
+                        <input type="checkbox" id="femaleCheckbox" name="gender" value="female" class="check">
+                        <p class="text4">Female</p>
+                        </div>
+                        <div class="box1">
+                        <input type="checkbox" id="otherCheckbox" name="gender" value="other" class="check">
+                        <p class="text4">Other</p>
+                     </div>
+                     <span id="genderError" class="error-message5"></span>
+                        
+                    </div>
+                    
           </div>
           
 
@@ -69,6 +81,6 @@
 <iframe src="/html/footer.html"  class="footer-main"></iframe>
 </div>
 
-          
+ <script src="/js/07.js"></script>         
 </body>
 </html>

@@ -111,64 +111,28 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
           height: 59px;
           top: 720px;
           right: 395px;
-          background-color: white;
           display: flex;
           flex-direction: column;
           
 }
-.wrapcheck
-{
-          width: 250px;
-          height: 40px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-
-}
-
-.check {
- -webkit-appearance: none;
- appearance: none;
-width: 16px;
-height: 16px;
-background-color: #ccc; /* Màu nền xám */
-border-radius: 50%;
-border: none;
-position: relative;
-cursor: pointer;
-margin-right: 10px;
- }
-
-.check:checked::after {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 10px;
-          height: 10px;
-          background-color: #5463ff;
-          border-radius: 50%;
-          transform: translate(-50%, -50%);
-}
-       
-      
-.checktext
-{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 21px;
-color: #0D1222;
-margin-top: -2px;
-margin-left: -2px;
-}
 .text3
 {
-          font-family: sans-serif;
+          font-family: 'Poppins';
           font-size: 18px;
-          font-weight: bold;
-          margin-bottom: 8px;
+          font-weight: 700;
+          line-height: 30px;
+          text-align: left;
+          margin-bottom: 6px;
+          
+}
+.text4
+{
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+margin-top: -2px;
 }
 input
 {
@@ -179,18 +143,83 @@ input
           background: #FFFFFF;
           box-sizing: border-box;
           border: 1px solid #969696;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 30px;
+          color: #969696;
 }
 .input_a
 {
-          box-sizing: border-box;
-          position: absolute;
           width: 588px;
           height: 126px;
-          /* White color */
+          border: none;
+          margin-bottom: 23px;
           background: #FFFFFF;
-          /* Medium */
+          box-sizing: border-box;
           border: 1px solid #969696;
+          resize: none;
+          padding: 24px 18px;
+/* text */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #969696;
+
+
 }
+
+
+.wrap_check
+{
+          width: 235px;
+          height: 30px;
+          display: flex;
+          flex-direction: row;  
+          gap: 20px;    
+}
+.check {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 16px;
+          height: 16px;
+          background-color: #DDDDDD;
+          border-radius: 50%;
+          border: none;
+          position: relative;
+          cursor: pointer;
+          margin-right: 10px;
+      }
+
+      .check:checked {
+          background-color: #dddd;
+      }
+
+.check:checked::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 8px;
+          border: none;
+          height: 8px;
+          background-color: #5463ff;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+      }
+
+
+.box1
+{
+          width: 80px;
+          height: 21px;
+          display: flex;
+          flex-direction: row;
+}
+
 .input_b
 {
           position: absolute;
@@ -222,6 +251,7 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
           font-size: 18px;
           font-weight: bold;
           color:white;
+          cursor: pointer;
 }
 
 
@@ -237,9 +267,57 @@ box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 ::placeholder
 {
-font-family: Poppins;
+font-family: 'Poppins';
 font-size: 18px;
 font-weight: 700;
 line-height: 30px;
-padding: 24px;
+}
+
+  /* Hiệu ứng khi nhấn */
+  .buttonde:active {
+    box-shadow: 0 5px #F4F4F4; /* Thay đổi bóng khi nhấn */
+    transform: translateY(4px); /* Di chuyển nút xuống khi nhấn */
+  }
+
+  .error-message1 {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    position: absolute;
+    top: 90px;
+
+
+}
+.error-message2 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 200px;
+
+}
+.error-message3 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  bottom: 53px;
+
+}
+.error-message4 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 95px;
+
+}
+.error-message5 {
+  color: red;
+  width: 300px;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 70px;
+
 }
