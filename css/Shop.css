@@ -28,7 +28,7 @@ iframe {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 2000px;
+  top: 3000px;
   bottom: 0px;
   height: 389px;
 
@@ -54,9 +54,8 @@ iframe {
   font-weight: 700;
   height: 21px;
   color: #ffffff;
-  
 }
-.text_list_header_Shop{
+.text_list_header_Shop {
   text-decoration: none;
   font-family: "Poppins";
   width: 58px;
@@ -65,7 +64,6 @@ iframe {
   font-size: 15px;
   color: #ffffff;
 }
-
 
 .Shop {
   font-weight: 700;
@@ -204,19 +202,17 @@ iframe {
   display: flex;
   gap: 25px;
   margin-top: 16px;
- 
 }
 .Categories-text-list p {
   border: 1px solid #ddd;
   padding: 4px 10px;
- margin-right: 10px;
-
+  margin-right: 10px;
 }
 
-.Categories-text-list p:hover{
-  background-color: #5463FF;
+.Categories-text-list p:hover {
+  background-color: #5463ff;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
 }
 .Categories-text_img {
@@ -224,7 +220,6 @@ iframe {
   width: 282px;
   gap: 185px;
   margin-top: 40px;
-
 }
 .Price {
   display: flex;
@@ -246,7 +241,6 @@ iframe {
   margin-top: 16px;
   height: 55px;
   border-bottom: 1px solid rgb(221, 221, 221);
-  
 }
 #color1 {
   width: 18px;
@@ -271,7 +265,6 @@ iframe {
   height: 18px;
   border-radius: 50%;
   background: #4f87dc;
-  
 }
 .Size {
   height: 108px;
@@ -296,7 +289,7 @@ iframe {
 .pick-size {
   display: flex;
   gap: 32px;
-margin-left: 32px;
+  margin-left: 32px;
   position: relative;
 }
 .pick-size p {
@@ -350,7 +343,8 @@ margin-left: 32px;
 
 .product {
   width: 100%;
-  margin-right: 40px;
+  /* margin-right: 40px; */
+  /* gap:100px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .list-product {
@@ -359,6 +353,7 @@ margin-left: 32px;
   filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.15));
   display: flex;
   margin-bottom: 40px;
+  gap:40px
 }
 /* ẩn các thẻ i */
 .product .list-icon {
@@ -390,16 +385,33 @@ margin-left: 32px;
   color: #0d1222;
 }
 .star {
-  position: absolute;
-  left: 6.42%;
-  right: 53.58%;
-  top: 88.52%;
-  bottom: 6.56%;
   display: flex;
+  gap: 10px;
+  margin: 15px;
+}
+.star p {
+  /* ( 1k ) */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* Medium */
+  color: #969696;
+  width: 20px;
 }
 .list-text #H3 {
   margin-left: 16px;
   margin-right: 16px;
+  margin-top: 9px;
+}
+.list-text p {
+  color: #969696;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 #list-productcopy {
   width: 100%;
@@ -410,8 +422,65 @@ margin-left: 32px;
   height: 248px;
 }
 
-
-
 #part2-main {
   width: 100%;
+}
+
+.load_more {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 34px;
+  gap: 10px;
+  width: 180px;
+  height: 48px;
+  background: linear-gradient(180deg, #7d89ff 0%, #ab40ff 66.67%);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+  margin-left: 315px;
+  background-color: #ffffff;
+  box-shadow: 0px 18px 30px 0px rgb(221, 220, 220); /* x, y, độ mờ, màu */
+  transition: transform 0.2s ease-in;
+}
+.load_more:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.Recommend_Product {
+  font-family: "Mada";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+  text-align: center;
+
+  color: #000000;
+  margin-top: 91px;
+  margin-bottom: 40px;
+}
+
+.pic_4 {
+  margin-top: 40px;
+}
+.pic_4_1 {
+  display: flex;
+}
+.vecto_4 {
+  width: 40px;
+  height: 40px;
+margin: auto;
+}
+.vecto_4:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
