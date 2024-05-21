@@ -6,7 +6,7 @@
           <title>Document</title>
           <link rel="stylesheet" href="/css/home.css">
           <link rel="stylesheet" href="/css/nav.css">
-          <link rel="stylesheet" href="/css/06.css">
+          <link rel="stylesheet" href="/css/login.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap" rel="stylesheet">
@@ -34,14 +34,14 @@
                         <div class="myacc">
                             My Account
                         </div>
-                        <div class="signupp">
-                            Sign Up
+                        <div class="login">
+                            Login
                         </div>
 
                         <div class="signup">
                             <p class="signup_text1">
-                               You have accout ?</p>
-                            <a href="/html/05.html" class="texts">Login</a>
+                                Don't have accout ?</p>
+                            <a href="/html/06.html" class="text texts">Sign Up</a>
 
                         </div>
                         <div class="button_cover">
@@ -50,54 +50,42 @@
                                 <p class="textb">Goolge</p> 
                             </button>
                             
-                            <button class="button2 buttonde">
+                            <button class="button2 buttonde ">
                                 <img src="/img/Group 1939.png" alt="" class="img_gg">
                                 <p class="textb">Facebook</p>
                             </button>
 
                         </div>
-                        <div class="f_l_wrap">
-                        <div class="f_l">
-                              <p class="e_w">First name</p>
-                              <input type="text" placeholder="First name" class="f_l_input" id="firstNameInput" style="padding: 24px ;">
-                              
-                        </div>
-                        <div class="f_l">
-                              <p class="e_w">Last name</p>
-                              <input type="text" placeholder="Last name" class="f_l_input" id="lastNameInput" style="padding: 24px ;">
-                              
-                        </div>
-
-                    </div>
                         <div class="email">
                             <p class="e_w">Email</p>
-                            <input type="email" placeholder="Email" style="padding: 24px ; " class="input"  id="emailInput">
+                            <input type="email" placeholder="Email" id="emailInput" style="padding: 24px ; " class="input">
                         </div>
 
                         <div class="pass">
                             <p class="e_w">Password</p>
-                            <input type="password" placeholder="Password" style="padding: 24px ; " class="input"  id="passwordInput">
+                            <input type="password" placeholder="Password" id="passwordInput" style="padding: 24px ; " class="input">
                         </div>
-                        <div class="email">
-                              <p class="e_w">Entry Keyword Again</p>
-                              <input type="password" placeholder="Enter keyword again" style="padding: 24px ; " class="input" id="confirmPasswordInput">
-                          </div>
                         <div class="wrap">
                             <div class="item1">
                                 <input type="checkbox" name="" id="" class="checkbox">
                                 <div class="text-item">Remember me</div>
                             </div>
 
+                            <div class="item2">
+                                <a href="#" class="text-item texts">Forget password ?</a>
+                            </div>
+                    
                         </div>
                        
                         <div class="wrapb">
-                            <div class="buttonb buttonde"><button class="buttont" onclick="validateSignup()">Sign Up</button></div>
+                            <div class="buttonb buttonde"><button class="buttont" onclick="login()">Login</button></div>
                         </div>
+                    </div>
                     </div>
 
           <div class="footer">
                     <iframe src="/html/footer.html" class="footer-main"></iframe>
           </div>
-          <script src="/js/06.js"></script>
+          <script src="/js/login.js"></script>
 </body>
 </html>
