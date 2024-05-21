@@ -336,7 +336,6 @@ h3{
 .next-prev{
     position: relative;
     top: 234px;
-    left: 27px;
 }
 .slider{
     animation: animate 1s ease-in-out 1 forwards;
@@ -388,6 +387,7 @@ color: #FFFFFF;
 #anh1-img{
     position: relative;
     top:-100px;
+    left: 24px;
 }
 #product-img{
     width: 265px;

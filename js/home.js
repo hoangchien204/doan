@@ -2,7 +2,7 @@
 const imagePaths = [
     '../img/unsplash_IrQmtib-ER4.png',
     "../img/anhaotrang.png",
-    '../img//Group 2006.png', // Thay đổi thành đường dẫn của ảnh thứ 3
+    '../img/unsplash_tvG4WvjgsEY (1).png', // Thay đổi thành đường dẫn của ảnh thứ 3
 ];
 
 let currentImageIndex = 0; // Chỉ số của hình ảnh hiện tại
