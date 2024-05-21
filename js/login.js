@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
               // Chuyển hướng đến trang home.html sau 2 giây
               setTimeout(function() {
-                  window.location.href = "/html/home.html";
+                  window.location.href = "/html/update_infor.html";
               }, 2000); // Thời gian chờ 2 giây trước khi chuyển hướng
           } else {
               alert("Email hoặc mật khẩu không đúng");
