@@ -78,7 +78,7 @@ prev.addEventListener('click', function() {
     items[1].style.width = '360px'; // Đặt lại kích thước chiều rộng
     items[1].style.height = '320px'; // Đặt lại chiều cao
     items[1].style.top = '0';
-
+    
 });
 }
 slider1();

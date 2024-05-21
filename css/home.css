@@ -10,6 +10,7 @@
     height: 80px;
     z-index: 1000;   
     position: fixed;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 body{
     margin: 0;
@@ -458,6 +459,7 @@ color: #5463FF;
     position: relative;
     margin-right: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
 }
 .list-product{
     position: absolute;
@@ -512,6 +514,14 @@ color: #5463FF;
 .list-text #H3{
     margin-left: 16px;
     margin-right: 16px;
+}
+.list-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #969696;
+    font-family: 'Poppins';
 }
 #list-productcopy{
     /* Group 2008 */
@@ -702,8 +712,6 @@ color: #5463FF;
     color: #DDDDDD;
 }
 .Order{
-   
-    gap: 10px;
     width: 180px;
     height: 48px;
     margin-top: 40px;

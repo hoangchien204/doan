@@ -1,0 +1,323 @@
+.container
+{
+          position: relative;
+          width: 100%;
+          height: 1433px;
+}
+.body
+{
+          width: 100%;
+          height: 1044px;
+          overflow: hidden;
+}
+*{
+          box-sizing: border-box;
+}
+.background
+{
+position: absolute;
+width: 100%;
+height: 348px;
+left: 0px;
+top: 80px;
+background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+border-radius: 5px;
+transform: skewY(-4deg);
+transform-origin: left bottom;
+}
+
+.home
+{
+display: flex;
+justify-content:space-between;
+position: absolute;
+width: 180px;
+height: 22px;
+left: 120px;
+top: 120px;
+font-family:sans-serif;
+}
+.text1
+{
+width: 240px;
+height: 52px;
+top: 180px;
+left: 120px;
+font-size: 40px;
+position: absolute;
+color: white;
+font-family:'Mada';
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+
+}
+.active-page
+{
+          color: white;
+          font-weight: bold;
+          font-family:sans-serif;
+}
+.color
+{
+          color: white;
+}
+
+
+
+.text2
+{
+position: absolute;
+width: 510px;
+height: 78.38px;
+left: 120px;
+top: 257px;
+color:#F4F4F4;
+font-size: 18px;
+line-height: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img
+{
+          position: absolute;
+          width: 525px;
+          height: 446px;
+          top: 120px;
+          right: 120px;
+}
+.wrap
+{
+          position: absolute;
+          width: 588px;
+          height: 456px;
+          top: 508px;
+          left: 120px;
+          background-color: white;
+}
+.wrap2
+{
+          position: absolute;
+          width: 486px;
+          height: 177px;
+          top: 608px;
+          right: 145px;
+          background-color: white;
+          
+}
+.wrap3
+{
+          position: absolute;
+          width: 235px;
+          height: 59px;
+          top: 720px;
+          right: 395px;
+          display: flex;
+          flex-direction: column;
+          
+}
+.text3
+{
+          font-family: 'Poppins';
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 30px;
+          text-align: left;
+          margin-bottom: 6px;
+          
+}
+.text4
+{
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+margin-top: -2px;
+}
+input
+{
+          width: 588px;
+          height: 48px;
+          border: none;
+          margin-bottom: 23px;
+          background: #FFFFFF;
+          box-sizing: border-box;
+          border: 1px solid #969696;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 30px;
+          color: #969696;
+}
+.input_a
+{
+          width: 588px;
+          height: 126px;
+          border: none;
+          margin-bottom: 23px;
+          background: #FFFFFF;
+          box-sizing: border-box;
+          border: 1px solid #969696;
+          resize: none;
+          padding: 24px 18px;
+/* text */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #969696;
+
+
+}
+
+
+.wrap_check
+{
+          width: 235px;
+          height: 30px;
+          display: flex;
+          flex-direction: row;  
+          gap: 20px;    
+}
+.check {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 16px;
+          height: 16px;
+          background-color: #DDDDDD;
+          border-radius: 50%;
+          border: none;
+          position: relative;
+          cursor: pointer;
+          margin-right: 10px;
+      }
+
+      .check:checked {
+          background-color: #dddd;
+      }
+
+.check:checked::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 8px;
+          border: none;
+          height: 8px;
+          background-color: #5463ff;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+      }
+
+
+.box1
+{
+          width: 80px;
+          height: 21px;
+          display: flex;
+          flex-direction: row;
+}
+
+.input_b
+{
+          position: absolute;
+          width: 486px;
+          height: 48px;
+          border: none;
+          margin-bottom: 23px;
+          background: #FFFFFF;
+          box-sizing: border-box;
+          border: 1px solid #969696;
+
+}
+
+.update
+{
+
+position: absolute;
+width: 180px;
+height: 48px;
+left: 0px;
+top: 408px;
+background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+
+}
+.update-t
+{
+          font-family: sans-serif;
+          font-size: 18px;
+          font-weight: bold;
+          color:white;
+          cursor: pointer;
+}
+
+
+.footer-main
+{
+          position: absolute;
+          width: 100%;
+          left: 0px;
+          top: 1044px;
+          bottom: 0px;
+          height: 389px;
+          background:rgba(57,62,70,1);
+}
+::placeholder
+{
+font-family: 'Poppins';
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+}
+
+  /* Hiệu ứng khi nhấn */
+  .buttonde:active {
+    box-shadow: 0 5px #F4F4F4; /* Thay đổi bóng khi nhấn */
+    transform: translateY(4px); /* Di chuyển nút xuống khi nhấn */
+  }
+
+  .error-message1 {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    position: absolute;
+    top: 90px;
+
+
+}
+.error-message2 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 200px;
+
+}
+.error-message3 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  bottom: 53px;
+
+}
+.error-message4 {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 95px;
+
+}
+.error-message5 {
+  color: red;
+  width: 300px;
+  font-size: 0.9em;
+  display: none;
+  position: absolute;
+  top: 70px;
+
+}

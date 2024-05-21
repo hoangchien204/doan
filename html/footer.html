@@ -21,14 +21,14 @@
                 <ul id="footer1">
                     <li><img src="../img/Logo.png" alt=""> <p id="LOGOFOOTER">mangcoding Store</p></li>
                     <li id="footer-item1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p></li>                
-                    <a href="#"><p id="Login">Login Now</p></a>
+                    <a href="./login.html"><p id="Login">Login Now</p></a>
                 </ul>
                 <ul id="footer2">
                     <li><a href="./home.html"><h3>Home</h3></a></li>
                     <li><a href="#">Product</a></li>
-                    <li><a href="#">Categories</a></li>
+                    <li><a href="./home.html">Categories</a></li>
                     <li><a href="#">Shop</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="./login.html">Login</a></li>
                 </ul>
                 <ul id="footer3">
                     <li><a href="#"></a><h3>Shop</h3></li>
@@ -46,9 +46,23 @@
                 <ul id="footer5">
                     <li><a href="#"><h3>Contact</h3></a></li>
                     <li>mangcoding@gmail.com</li>
-                    <img src="../img/Group 2000.png" id="Group2000">
+                    <div style="display: flex; gap: 16px; margin-top: 16px;">
+                        <a href="https://www.facebook.com/"><img src="../img/facebook.png" alt=""></a>
+                        <a href="https://x.com/"><img src="../img/twetter.png" alt=""></a>
+                        <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt=""></a>
+                        <a href="https://www.linkedin.com/login"><img src="../img/linkedin.png" alt=""></a>
+                    </div>
                 </ul>
             </div>
     </section>
+<script>
+    const links = document.querySelectorAll('a');
+
+    // Duyệt qua mỗi thẻ <a> và thiết lập thuộc tính target cho mỗi thẻ
+    links.forEach(link => {
+        link.setAttribute('target', '_parent')
+    });
+
+</script>
 </body>
 </html>

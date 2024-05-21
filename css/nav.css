@@ -26,6 +26,19 @@
     position: relative;
 
 }
+.sp{
+    position: relative;
+    bottom: 34px;
+    left: 40px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: #EF8484;
+}
 .nav-item2 li a:hover{
     color: #5463FF;
     font-family: 'Mada';
@@ -67,17 +80,16 @@ a,img{
 }
 
 #LOGO{
-    /* margin: 10px 0 10px 100px; */
-    top: 9px;
-	left: 42px;
-	width: 122.4px;
-	height: 20.4px;
-	overflow: hidden;
-	font-family: Roboto;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	color:#0D1222;
+    position: relative;
+    left: 6px;
+    width: 124.4px;
+    height: 20.4px;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #0D1222;
     margin-top: 5px;
 }
 .nav-item1 img{
