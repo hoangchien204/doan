@@ -35,6 +35,7 @@ iframe {
   background: rgba(57, 62, 70, 1);
 }
 .inchear {
+  margin-left: 3px;
   height: 160px;
 }
 .homeshop a {
@@ -47,7 +48,7 @@ iframe {
 .homeshop {
   display: flex;
   gap: 24px;
-  margin-left: -1136px;
+  margin-left: -1289px;
   color: #ffffff;
 }
 .homeshop a:hover {
@@ -82,7 +83,7 @@ iframe {
   gap: 24px;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-left: 760px;
+  margin-left: 903px;
 }
 .circle1 {
   display: flex;
@@ -162,7 +163,7 @@ iframe {
   font-family: "mada";
   display: flex;
   gap: 40px;
-  column-gap: 155px;
+  column-gap: 274px;
 }
 .part2-menu {
   margin-left: 120px;
@@ -346,6 +347,9 @@ iframe {
   /* margin-right: 40px; */
   /* gap:100px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  min-width: 6.1%; /* 100% / 6 items = 16.66% */
+  box-sizing: border-box;
+
 }
 .list-product {
   width: 100%;
@@ -353,8 +357,9 @@ iframe {
   filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.15));
   display: flex;
   margin-bottom: 40px;
-  gap:40px
+  gap: 51px;
 }
+
 /* ẩn các thẻ i */
 .product .list-icon {
   display: none;
@@ -477,9 +482,9 @@ iframe {
 .vecto_4 {
   width: 40px;
   height: 40px;
-margin: auto;
+  margin: auto;
 }
-.vecto_4:hover{
+.vecto_4:hover {
   cursor: pointer;
   transform: scale(1.1);
   opacity: 0.8;
