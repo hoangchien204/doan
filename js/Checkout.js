@@ -14,9 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Giữ cho số lượng sản phẩm không nhỏ hơn 0
-     
-
-    quantityElement.textContent = quantity;
+    
 
     // Cập nhật tổng tiền
     const totalPriceElement = document.querySelector('.total-money');
@@ -54,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             quantity = 0; // Đặt lại số lượng sản phẩm là 0 nếu không xóa
         }
     }
-    
+    quantityElement.textContent = quantity;
 
     totalPriceElement.textContent = `$${totalPrice.toFixed(2)} USD`;
     subtotalPrice.textContent = `$${subtotal.toFixed(2)} USD`;
