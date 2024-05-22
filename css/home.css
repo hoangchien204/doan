@@ -82,6 +82,12 @@ background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.Stop-now:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.8;
+    
+}
 .nav-text h1{
     height: 50%;
     
@@ -110,6 +116,7 @@ background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
     padding: 10px 34px;
     gap: 10px;
     width: 20%;
+    transition: transform 0.2s ease-in;
     height: 7%;
     background: #FFFFFF;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
@@ -728,11 +735,17 @@ color: #5463FF;
     background: #FFFFFF;
     font-weight: bold;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
-    
+    transition: transform 0.2s ease-in;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.Order:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.8;
+    
 }
 .Order a{   
     
@@ -886,8 +899,15 @@ color: #FFFFFF;
     align-items: center;
     padding: 10px 34px;
     gap: 10px;
+    transition: transform 0.2s ease-in;
     background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+}
+#Models-list-bg-a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.8;
+    
 }
 
 
