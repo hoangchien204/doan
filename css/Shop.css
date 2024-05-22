@@ -72,6 +72,8 @@ iframe {
   line-height: 52px;
   color: white;
   margin-top: 51px;
+  position: relative;
+  left: -50px;
 }
 .circle_shop {
   display: flex;
@@ -103,9 +105,13 @@ iframe {
   font-weight: 700;
 }
 .box_square {
-  width: 18px;
-  height: 80px;
+  width: 498px;
+
   display: flex;
+  position: absolute;
+  left: 1108px;
+  bottom: 250px;
+  justify-content: space-between;
 }
 .square {
   background-color: white;
@@ -115,7 +121,14 @@ iframe {
   flex-direction: column;
   width: 18px;
   height: 18px;
-  margin: auto;
+}
+.slides-container {
+  display: flex;
+  gap: 20px;
+}
+
+.slide-container {
+  flex: 1;
 }
 .vecto {
   width: 5.34px;
@@ -138,6 +151,9 @@ iframe {
   color: #0d1222;
   margin-top: 80px;
   margin-left: 120px;
+}
+.slide-container.hidden {
+  display: none;
 }
 
 .T_Shirt {
@@ -222,6 +238,7 @@ iframe {
   gap: 185px;
   margin-top: 40px;
 }
+
 .Price {
   display: flex;
   gap: 220px;
@@ -229,8 +246,64 @@ iframe {
   margin-top: 24px;
   border-bottom: 1px solid rgb(221, 221, 221);
 }
+/* .duongthang{
+height: 267px;
+width: 4px;
+ position: absolute;
+ z-index: 1;
+
+} */
+.elip {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #5463ff;
+  position: absolute;
+  z-index: 2;
+  margin-top: -84px;
+  right: 235px;
+
+}
+.duongthang {
+  position: absolute;
+  z-index: 1;
+  margin-top: -77px;
+}
+.boc {
+  position: relative;
+}
+
+.p40_500{
+display: flex;
+gap: 185px;
+font-family: 'Poppins';
+font-style: normal;
+font-size: 18px;
+line-height: 27px;
+color: #0D1222;
+margin-top: -50px;
+}
+.p40{
+width: 40px;
+height: 27px;
+left: 120px;
+top: 748px;
+font-weight: 700;
+
+}
+.p500{
+width: 50px;
+height: 27px;
+left: 351px;
+top: 748px;
+
+font-weight: 400;
+
+
+
+}
 .color {
-  margin-top: 24px;
+  margin-top: 65px;
 }
 .color-img-text {
   gap: 220px;
@@ -349,7 +422,6 @@ iframe {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   min-width: 6.1%; /* 100% / 6 items = 16.66% */
   box-sizing: border-box;
-
 }
 .list-product {
   width: 100%;
@@ -448,7 +520,7 @@ iframe {
   height: 48px;
   background: linear-gradient(180deg, #7d89ff 0%, #ab40ff 66.67%);
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
-  margin-left: 315px;
+  margin-left: 326px;
   background-color: #ffffff;
   box-shadow: 0px 18px 30px 0px rgb(221, 220, 220); /* x, y, độ mờ, màu */
   transition: transform 0.2s ease-in;
