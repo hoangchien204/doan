@@ -459,8 +459,18 @@ color: #5463FF;
     position: relative;
     margin-right: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
     background-color: white;
 }
+.product:hover {
+    transform: scale(1.05); /* Zoom in the whole product card on hover */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+      /* Change to a lighter color on hover */
+      background-color: rgba(232, 231, 231, 0.75);
+    }
+    .product img {
+      transition: transform 0.4s ease; /* Add smooth transition for image */
+    }
 .list-product{
     position: absolute;
     width: 100%;

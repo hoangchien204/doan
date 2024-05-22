@@ -68,5 +68,5 @@ document.addEventListener("DOMContentLoaded", function() {
           alert("Đăng ký thành công!");
           localStorage.setItem('email', email);
           localStorage.setItem('password', password);
-          window.location.href = "/html/05.html";
+          window.location.href = "/html/login.html";
       }
