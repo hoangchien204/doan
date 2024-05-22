@@ -1,10 +1,12 @@
-function removeProduct(element) {
-    // Tìm phần tử cha của img_bin
-    const productElement = element.closest('.product');
-    
-    // Xóa phần tử product khỏi DOM
-    if (productElement) {
-      productElement.remove();
-    }
+function confirmRemoveProduct(element) {
+  if (confirm("Bạn có chắc muốn xóa sản phẩm này không?")) {
+    removeProduct(element);
   }
-  
+}
+
+function removeProduct(element) {
+  const productElement = element.closest('.product');
+  if (productElement) {
+    productElement.remove();
+  }
+}
