@@ -22,7 +22,9 @@ iframe {
   width: 100%;
   z-index: 1000;
   border: none;
+  position: fixed;
 }
+
 
 .footer-main {
   position: absolute;
